@@ -1,0 +1,30 @@
+name: Deploy site
+# 流程：本地 convert + 人工校订 → 提交 people/*/chronology.json → 推送 main → 自动构建并发布。
+on:
+  push:
+    branches: [main]
+    paths: ["people/**/chronology.json", "people/**/meta.json", "bio2chronology/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m unittest discover -s tests
+      - run: python -m bio2chronology site build -o site
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+      - id: deployment
+        uses: actions/deploy-pages@v4

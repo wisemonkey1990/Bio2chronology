@@ -1,0 +1,10 @@
+{
+  "name": "沈砚秋",
+  "aliases": ["砚秋"],
+  "birth_year": 1895,
+  "summary": "虚构人物，仅用于演示：浙江绍兴人，早年求学，北上任教，后迁居上海，以《寒夜集》知名。",
+  "source": "《沈砚秋传》（虚构示例）",
+  "fictional": true,
+  "known_people": ["林远山", "苏婉清"],
+  "biography": "source/biography.txt"
+}

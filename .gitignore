@@ -1,4 +1,7 @@
 __pycache__/
 *.egg-info/
 out/
+site/
 .venv/
+# 完整传记原文通常受版权保护，不要提交
+people/*/source/

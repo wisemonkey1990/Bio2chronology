@@ -1,0 +1,275 @@
+{
+  "subject": "沈砚秋",
+  "birth_year": 1895,
+  "events": [
+    {
+      "id": "e0001",
+      "year": 1895,
+      "month": null,
+      "season": null,
+      "time_raw": "1895年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "沈砚秋生于1895年，出生于浙江绍兴的一个书香门第",
+      "category": "出生",
+      "people": [],
+      "places": [
+        "浙江绍兴"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 1,
+          "quote": "沈砚秋生于1895年，出生于浙江绍兴的一个书香门第。"
+        }
+      ],
+      "status": "confirmed",
+      "note": "示例校订"
+    },
+    {
+      "id": "e0002",
+      "year": 1908,
+      "month": null,
+      "season": null,
+      "time_raw": "1908年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1908年，他考入绍兴府学堂，结识了同窗林远山",
+      "category": "教育",
+      "people": [
+        "林远山"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 1,
+          "quote": "1908年，他考入绍兴府学堂，结识了同窗林远山。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0003",
+      "year": 1908,
+      "month": null,
+      "season": "秋",
+      "time_raw": "同年秋",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1908年",
+      "summary": "同年秋，他第一次在校刊上发表习作",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 1,
+          "quote": "同年秋，他第一次在校刊上发表习作。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0004",
+      "year": 1909,
+      "month": null,
+      "season": null,
+      "time_raw": "次年",
+      "time_confidence": "relative",
+      "time_note": "以上文1908年为基准，“次年”+1年",
+      "summary": "次年，祖父去世，家道中落",
+      "category": "逝世",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 2,
+          "quote": "次年，祖父去世，家道中落。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0005",
+      "year": 1912,
+      "month": null,
+      "season": null,
+      "time_raw": "数年后",
+      "time_confidence": "approx",
+      "time_note": "以上文1909年为基准，“数年后”+3年；“数年”按3年估算，请核对",
+      "summary": "数年后，他决定远赴南京求学",
+      "category": "教育",
+      "people": [],
+      "places": [
+        "南京"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 2,
+          "quote": "数年后，他决定远赴南京求学。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0006",
+      "year": 1923,
+      "month": 3,
+      "season": null,
+      "time_raw": "民国十二年三月",
+      "time_confidence": "explicit",
+      "time_note": "民国12年=公元1923年",
+      "summary": "民国十二年三月，沈砚秋北上抵达北平，任教于某大学",
+      "category": "任职",
+      "people": [],
+      "places": [
+        "抵达北平"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第二章 北上",
+          "paragraph": 1,
+          "quote": "民国十二年三月，沈砚秋北上抵达北平，任教于某大学。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0007",
+      "year": 1923,
+      "month": null,
+      "season": "暮春",
+      "time_raw": "暮春",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1923年",
+      "summary": "暮春，他与林远山重逢",
+      "category": "交往",
+      "people": [
+        "林远山"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第二章 北上",
+          "paragraph": 1,
+          "quote": "暮春，他与林远山重逢。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0008",
+      "year": 1923,
+      "month": null,
+      "season": "冬",
+      "time_raw": "同年冬",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1923年",
+      "summary": "同年冬，《寒夜集》付梓出版，他首次使用笔名“砚秋”",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "寒夜集"
+      ],
+      "sources": [
+        {
+          "chapter": "第二章 北上",
+          "paragraph": 1,
+          "quote": "同年冬，《寒夜集》付梓出版，他首次使用笔名“砚秋”。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0009",
+      "year": 1925,
+      "month": null,
+      "season": null,
+      "time_raw": "而立之年",
+      "time_confidence": "inferred",
+      "time_note": "生年1895+30岁（按周岁；若为虚岁则早一年）",
+      "summary": "而立之年，他终于在文坛站稳脚跟",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第一章 少年",
+          "paragraph": 2,
+          "quote": "而立之年，他终于在文坛站稳脚跟。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0010",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "1927年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1927年，因时局动荡，他迁居上海",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "上海"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第二章 北上",
+          "paragraph": 2,
+          "quote": "1927年，因时局动荡，他迁居上海。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    },
+    {
+      "id": "e0011",
+      "year": 1930,
+      "month": null,
+      "season": null,
+      "time_raw": "三年后",
+      "time_confidence": "relative",
+      "time_note": "以上文1927年为基准，“三年后”+3年",
+      "summary": "三年后，与苏婉清结婚",
+      "category": "婚育",
+      "people": [
+        "苏婉清"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "第二章 北上",
+          "paragraph": 2,
+          "quote": "三年后，与苏婉清结婚。"
+        }
+      ],
+      "status": "auto",
+      "note": ""
+    }
+  ]
+}

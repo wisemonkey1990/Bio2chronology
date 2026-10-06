@@ -41,7 +41,8 @@ def find_people(text: str, known=()) -> list:
     found = [n for n in known if n and n in text]
     for pat in _PEOPLE_PATTERNS:
         for m in pat.finditer(text):
-            name = re.split(r"先生|女士|并|后|于|在|和|与", m.group(1))[0]
+            name = re.sub(r"^(?:同窗|同学|好友|友人|朋友|老师|恩师|诗人|作家)", "", m.group(1))
+            name = re.split(r"先生|女士|并|后|于|在|和|与", name)[0]
             if len(name) >= 2 and name not in found:
                 found.append(name)
     return found

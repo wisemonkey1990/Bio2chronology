@@ -110,3 +110,26 @@ class LLMTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SiteTests(unittest.TestCase):
+    def test_build_site(self):
+        import tempfile
+        from pathlib import Path
+        from bio2chronology.site import build_site
+        with tempfile.TemporaryDirectory() as t:
+            people, out = Path(t, "people"), Path(t, "site")
+            d = people / "x"
+            d.mkdir(parents=True)
+            c = build_chronology(BIO, "沈某")
+            c.events[0].status = "rejected"
+            (d / "chronology.json").write_text(to_json(c), encoding="utf-8")
+            (d / "meta.json").write_text('{"name":"沈某","summary":"s"}', encoding="utf-8")
+            self.assertEqual(build_site(people, out), 1)
+            idx = json.loads((out / "data" / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(idx["people"][0]["count"], len(c.events) - 1)
+            self.assertTrue((out / "index.html").exists() and (out / "app.js").exists())
+
+    def test_people_heuristic_strips_titles(self):
+        from bio2chronology.classify import find_people
+        self.assertEqual(find_people("结识了同窗林远山", ["林远山"]), ["林远山"])

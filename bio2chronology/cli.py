@@ -5,7 +5,7 @@ import json
 import sys
 from pathlib import Path
 
-from .export import EXPORTERS, to_markdown
+from .export import EXPORTERS, to_json
 from .extract import LLMExtractor, RuleExtractor
 from .models import Chronology
 from .pipeline import build_chronology
@@ -60,7 +60,42 @@ def main(argv=None) -> int:
     r.add_argument("--summary")
     r.add_argument("--note")
 
+    c = sub.add_parser("convert", help="people/<slug>/ 下的传记 → chronology.json（离线管线，产物需人工校订后提交）")
+    c.add_argument("dir", help="人物目录，如 people/shen-yanqiu（需含 meta.json 与 source/biography.txt）")
+    c.add_argument("--engine", choices=["rules", "llm"], default="rules")
+    c.add_argument("--model", default="claude-sonnet-5-5")
+    c.add_argument("--force", action="store_true", help="覆盖已有 chronology.json（会丢失人工校订！）")
+
+    st = sub.add_parser("site", help="网站：build 构建静态站 / serve 本地预览")
+    st.add_argument("action", choices=["build", "serve"])
+    st.add_argument("--people", default="people", help="人物数据目录")
+    st.add_argument("-o", "--out", default="site", help="站点输出目录")
+    st.add_argument("--port", type=int, default=8000)
+
     a = p.parse_args(argv)
+
+    if a.cmd == "convert":
+        d = Path(a.dir)
+        meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+        target = d / "chronology.json"
+        if target.exists() and not a.force:
+            print(f"{target} 已存在，可能含人工校订；确需重来请加 --force", file=sys.stderr)
+            return 1
+        text = (d / meta.get("biography", "source/biography.txt")).read_text(encoding="utf-8")
+        people = meta.get("known_people", [])
+        ex = LLMExtractor(meta["name"], model=a.model) if a.engine == "llm" else RuleExtractor(people)
+        chron = build_chronology(text, meta["name"], meta.get("birth_year"), ex, people)
+        target.write_text(to_json(chron), encoding="utf-8")
+        print(f"{meta['name']}：{len(chron.events)} 条事件 → {target}；请校订后提交（review 命令或直接编辑 JSON）")
+        return 0
+
+    if a.cmd == "site":
+        from .site import build_site, serve
+        if a.action == "build" or not Path(a.out, "index.html").exists():
+            print(f"已构建 {build_site(a.people, a.out)} 位人物 → {a.out}/")
+        if a.action == "serve":
+            serve(a.out, a.port)
+        return 0
 
     if a.cmd == "build":
         text = Path(a.input).read_text(encoding="utf-8")
