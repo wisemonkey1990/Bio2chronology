@@ -1,0 +1,50 @@
+{
+  "name": "鲁迅",
+  "aliases": [
+    "周树人",
+    "周樹人",
+    "魯迅",
+    "周樟寿",
+    "周豫才"
+  ],
+  "birth_year": 1881,
+  "birth_month": 9,
+  "death_year": 1936,
+  "summary": "原名周樟寿，后改名周树人，浙江绍兴人。中国现代文学的奠基者之一，著有《呐喊》《彷徨》《朝花夕拾》等。",
+  "known_people": [
+    "周作人",
+    "周建人",
+    "许广平",
+    "朱安",
+    "周海婴",
+    "许寿裳",
+    "钱玄同",
+    "蔡元培",
+    "章太炎",
+    "内山完造",
+    "萧军",
+    "萧红",
+    "胡风",
+    "冯雪峰",
+    "宋庆龄"
+  ],
+  "license": "本年谱条目及引文据所列来源整理；其中来自维基百科的内容按 CC BY-SA 4.0 授权。",
+  "sources": [
+    {
+      "file": "source/wikisource-自叙传略.txt",
+      "label": "自叙传略",
+      "title": "俄文譯本《阿Ｑ正傳》序及著者自叙傳略",
+      "url": "https://zh.wikisource.org/wiki/%E4%BF%84%E6%96%87%E8%AD%AF%E6%9C%AC%E3%80%8A%E9%98%BF%EF%BC%B1%E6%AD%A3%E5%82%B3%E3%80%8B%E5%BA%8F%E5%8F%8A%E8%91%97%E8%80%85%E8%87%AA%E5%8F%99%E5%82%B3%E7%95%A5",
+      "license": "公有领域（作者逝世于1936年）",
+      "age_reckoning": "虚岁"
+    },
+    {
+      "file": "source/wikipedia-维基百科.txt",
+      "label": "维基百科",
+      "title": "鲁迅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%B2%81%E8%BF%85",
+      "license": "CC BY-SA 4.0",
+      "age_reckoning": "周岁"
+    }
+  ]
+}

@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import re
 
+from .zh import to_simplified
+
 CATEGORIES = [
     ("出生", ["出生", "生于", "诞生", "降生"]),
     ("逝世", ["逝世", "去世", "病逝", "病故", "卒于", "辞世", "殁", "牺牲", "遇害"]),
@@ -25,37 +27,44 @@ _PEOPLE_PATTERNS = [
 ]
 _PLACE_PATTERN = re.compile(
     r"(?:迁居|移居|搬至|搬到|前往|赴|抵达|抵|返回|回到|旅居|流亡|北上|南下|东渡|出生于|生于)"
-    r"([一-鿿]{2,4})")
-_PLACE_STOP = set("求任读就定担以为工办参开治避讲学从做当与会探访而并后时，")
+    r"([一-鿿]{2,10})")
+_PLACE_STOP = set("求任读就定担以为工办参开治避讲学从做当与会探访而并后时的城里内一家，")
 _WORK = re.compile(r"《([^》]{1,30})》")
 
 
 def classify(text: str) -> str:
+    text = to_simplified(text)
     for name, kws in CATEGORIES:
         if any(k in text for k in kws):
             return name
+    if any(k in text for k in ("学校", "学堂", "书院", "私塾")):
+        return "教育"  # weak signal, so only as a fallback
     return "其他"
 
 
 def find_people(text: str, known=()) -> list:
-    found = [n for n in known if n and n in text]
+    folded = to_simplified(text)
+    found = [n for n in known if n and to_simplified(n) in folded]
     for pat in _PEOPLE_PATTERNS:
-        for m in pat.finditer(text):
+        for m in pat.finditer(folded):
             name = re.sub(r"^(?:同窗|同学|好友|友人|朋友|老师|恩师|诗人|作家)", "", m.group(1))
             name = re.split(r"先生|女士|并|后|于|在|和|与", name)[0]
-            if len(name) >= 2 and name not in found:
+            start = m.start(1) + m.group(1).find(name)
+            name = text[start:start + len(name)]  # keep the source's characters
+            if len(name) >= 2 and to_simplified(name) not in {to_simplified(f) for f in found}:
                 found.append(name)
     return found
 
 
 def find_places(text: str) -> list:
     out = []
-    for m in _PLACE_PATTERN.finditer(text):
-        name = ""
+    for m in _PLACE_PATTERN.finditer(to_simplified(text)):
+        n = 0
         for ch in m.group(1):
             if ch in _PLACE_STOP:
                 break
-            name += ch
+            n += 1
+        name = text[m.start(1):m.start(1) + min(n, 9)]
         if len(name) >= 2 and name not in out:
             out.append(name)
     return out

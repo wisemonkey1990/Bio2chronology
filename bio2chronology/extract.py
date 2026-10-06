@@ -15,7 +15,7 @@ _CLAUSE_SPLIT = re.compile(r"(?<=[，,；;])")
 
 @dataclass
 class RawEvent:
-    time_text: str  # text the resolver scans for time expressions
+    time_text: str  # text the resolver scans for time expressions; "" = inherit the current year
     summary: str
     quote: str  # source sentence(s)
     paragraph: int
@@ -25,6 +25,14 @@ class RawEvent:
     works: list = field(default_factory=list)
 
 
+def _time_only(text: str) -> bool:
+    """True for a clause that is nothing but a time phrase, e.g. "1918年，" or "同年秋，"."""
+    rest = text
+    for r in reversed(scan(text)):
+        rest = rest[:r.start] + rest[r.end:]
+    return len(re.sub(r"[，,；;。\s的时间底初末中旬月日号0-9一二三四五六七八九十]", "", rest)) == 0
+
+
 def _clean(summary: str) -> str:
     return summary.strip("，,；;。 　")
 
@@ -32,20 +40,22 @@ def _clean(summary: str) -> str:
 class RuleExtractor:
     """Offline baseline: every clause group that carries a time expression becomes an event."""
 
-    def __init__(self, known_people: Iterable[str] = ()):
+    def __init__(self, known_people: Iterable[str] = (), inherit_undated: bool = True):
         self.known_people = list(known_people)
+        self.inherit_undated = inherit_undated
 
     def extract(self, chapter: Chapter) -> list:
         events = []
         for pi, para in enumerate(chapter.paragraphs, 1):
             for sentence in split_sentences(para):
-                for group in self._groups(sentence):
-                    refs = scan(group)
-                    if not refs:
-                        continue
+                groups = self._groups(sentence)
+                inherit = False
+                if not groups and self.inherit_undated and classify(sentence) != "其他":
+                    groups, inherit = [sentence], True
+                for group in groups:
                     events.append(RawEvent(
-                        time_text=group, summary=_clean(group), quote=sentence, paragraph=pi,
-                        category=classify(group),
+                        time_text="" if inherit else group, summary=_clean(group), quote=sentence,
+                        paragraph=pi, category=classify(group),
                         people=find_people(group, self.known_people),
                         places=find_places(group), works=find_works(group)))
         return events
@@ -59,7 +69,10 @@ class RuleExtractor:
             if not clause:
                 continue
             if scan(clause):
-                groups.append(prefix + clause)
+                if groups and _time_only(groups[-1]):
+                    groups[-1] += prefix + clause  # "1918年，36岁的他……" is one event
+                else:
+                    groups.append(prefix + clause)
                 prefix = ""
             elif groups:
                 groups[-1] += clause

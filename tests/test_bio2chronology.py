@@ -26,7 +26,7 @@ class TimeTests(unittest.TestCase):
 
     def test_age_idiom(self):
         t = TimeResolver(1890).resolve("而立之年")
-        self.assertEqual((t.year, t.confidence), (1920, "inferred"))
+        self.assertEqual((t.year, t.confidence), (1920, "approx"))
         self.assertEqual(TimeResolver().resolve("而立之年").year, None)
 
     def test_season_only_inherits_year(self):
@@ -133,3 +133,91 @@ class SiteTests(unittest.TestCase):
     def test_people_heuristic_strips_titles(self):
         from bio2chronology.classify import find_people
         self.assertEqual(find_people("结识了同窗林远山", ["林远山"]), ["林远山"])
+
+
+class PilotFixTests(unittest.TestCase):
+    """Behaviour found necessary in the Lu Xun pilot (people/lu-xun)."""
+
+    def test_traditional_characters(self):
+        r = TimeResolver(1881, "虚岁")
+        self.assertEqual(r.resolve("其時我是十八歲").year, 1898)
+        r.resolve("1909年")
+        self.assertEqual(r.resolve("三年後").year, 1912)
+
+    def test_reign_eras(self):
+        self.assertEqual(TimeResolver().resolve("清光緒七年八月初三").year, 1881)
+        self.assertEqual(TimeResolver().resolve("光绪19年").year, 1893)
+        self.assertEqual(TimeResolver().resolve("宣统元年").year, 1909)
+
+    def test_ordinal_years_count_from_anchor(self):
+        r = TimeResolver()
+        r.resolve("1909年回国")
+        self.assertEqual(r.resolve("第二年就走出").year, 1910)
+        self.assertEqual(r.resolve("第三年又走出").year, 1911)
+
+    def test_parenthesised_years_ignored(self):
+        self.assertIsNone(TimeResolver().resolve("仙台医学专门学校（1912年改制东北大学医学部）"))
+        self.assertEqual(TimeResolver().resolve("1893年（光绪19年），下狱").year, 1893)
+
+    def test_explicit_year_beats_age(self):
+        r = TimeResolver(1881, subject_names=["鲁迅", "周树人"])
+        self.assertEqual(r.resolve("1918年，36岁的周树人首次用笔名").year, 1918)
+
+    def test_other_peoples_age_ignored(self):
+        r = TimeResolver(1881, subject_names=["鲁迅"])
+        self.assertIsNone(r.resolve("与时年28岁的朱安结婚"))
+        self.assertEqual(r.resolve("45岁的鲁迅离开厦门").year, 1926)
+
+    def test_age_reckoning(self):
+        self.assertEqual(TimeResolver(1881, "虚岁").resolve("十三歲時").year, 1893)
+        self.assertEqual(TimeResolver(1881, "周岁").resolve("十三岁时").year, 1894)
+        r = TimeResolver(1881, "周岁", birth_month=9)
+        self.assertEqual(r.resolve("三月，二十岁").year, 1902)  # before the birthday → next year
+
+    def test_no_inheriting_years_before_birth(self):
+        c = build_chronology("祖父于1871年中进士。传主童年就读私塾。\n他生于1881年。", "x", 1881)
+        self.assertIsNone(next(e for e in c.events if "私塾" in e.summary).year)
+
+    def test_time_only_clause_joins_next(self):
+        c = build_chronology("1918年，36岁的他发表小说。", "他", 1881)
+        self.assertEqual([e.year for e in c.events], [1918])
+
+
+class ReviewOverlayTests(unittest.TestCase):
+    def test_overlay_survives_reconversion_and_merges(self):
+        import tempfile
+        from pathlib import Path
+        from bio2chronology.project import convert_person, review_event
+        with tempfile.TemporaryDirectory() as t:
+            d = Path(t)
+            (d / "source").mkdir()
+            (d / "source" / "a.txt").write_text("1908年，他考入某校。1909年，他去了北京。", encoding="utf-8")
+            (d / "source" / "b.txt").write_text("1908年秋，传主入学某校读书。", encoding="utf-8")
+            (d / "meta.json").write_text(json.dumps({"name": "他", "sources": [
+                {"file": "source/a.txt", "label": "甲"}, {"file": "source/b.txt", "label": "乙"}]}), encoding="utf-8")
+            chron, _, _ = convert_person(d)
+            ids = {e.summary: e.id for e in chron.events}
+            target_key = next(e.key for e in chron.events if e.summary.startswith("1908年，"))
+            review_event(d / "chronology.json", ids["1909年，他去了北京"], {"status": "rejected", "note": "x"})
+            review_event(d / "chronology.json", ids["1908年秋，传主入学某校读书"], {"merge_into": target_key})
+            chron, applied, orphaned = convert_person(d)  # regenerate from scratch
+            self.assertEqual((applied, orphaned), (2, 0))
+            live = [e for e in chron.events if e.status != "rejected"]
+            self.assertEqual(len(live), 1)
+            self.assertEqual(len(live[0].sources), 2)
+
+
+class SourceTests(unittest.TestCase):
+    def test_wikitext_to_text(self):
+        from bio2chronology.sources import wikitext_to_text
+        w = ("{{Infobox|a={{b}}}}\n== 生平 ==\n'''鲁迅'''生于[[绍兴|绍兴府]]<ref>x</ref>。-{zh-hans:简;zh-hant:繁}-\n"
+             "{| class=wikitable\n|a\n|}\n== 评价 ==\n略\n")
+        self.assertEqual(wikitext_to_text(w, sections=("生平",)), "# 生平\n鲁迅生于绍兴府。简\n")
+
+    def test_evaluate(self):
+        from bio2chronology.evaluate import evaluate
+        c = build_chronology("1898年，考入水師學堂。1902年，赴日本。", "x")
+        r = evaluate(c, {"items": [{"years": [1898], "desc": "a", "any": ["水师学堂"]},
+                                   {"years": [1903], "desc": "b", "any": ["赴日本"]},
+                                   {"years": [1910], "desc": "c", "any": ["不存在"]}]})
+        self.assertEqual([x["status"] for x in r["items"]], ["correct", "wrong_year", "missed"])

@@ -71,7 +71,11 @@ async function personPage(slug, focusId) {
     <div class="cite">${esc(lifespan(p))}</div>
     <p class="lede">${esc(p.summary)}</p>
     <div class="stats"><span>${p.events.length} 条事件</span><span>${confirmed} 条已人工校订</span>
-      ${p.source ? `<span>据：${esc(p.source)}</span>` : ""}</div>
+      ${p.source && !(p.references || []).length ? `<span>据：${esc(p.source)}</span>` : ""}</div>
+    ${(p.references || []).length ? `<ul class="refs">${p.references.map(r => `<li>${esc(r.label || r.title)}：
+      ${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.url)}</a>` : esc(r.title)}
+      ${r.license ? `<span class="cite">（${esc(r.license)}）</span>` : ""}</li>`).join("")}</ul>` : ""}
+    ${p.license ? `<p class="cite">${esc(p.license)}</p>` : ""}
     <div class="strip">${strip}</div>
     <div class="strip-axis"><span>${years.length ? y0 : ""}</span><span>事件密度（点击跳转）</span><span>${years.length ? y1 : ""}</span></div>
     <div class="bar"><input type="search" id="q" placeholder="在 ${esc(p.name)} 的年谱中搜索…" aria-label="搜索">

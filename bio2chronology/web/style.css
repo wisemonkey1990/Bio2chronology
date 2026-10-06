@@ -25,6 +25,8 @@ input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px}
 .back{display:inline-block;margin-top:18px;color:var(--mute);text-decoration:none;font-size:14px}
 .stats{display:flex;gap:18px;flex-wrap:wrap;font:13px system-ui,sans-serif;color:var(--mute);margin:10px 0}
 .cite{font-size:13px;color:var(--mute)}
+.refs{margin:4px 0;padding-left:18px;font:13px/1.7 system-ui,sans-serif;color:var(--mute)}
+.refs a{color:var(--accent)}
 .strip{display:flex;align-items:flex-end;gap:1px;height:44px;margin:18px 0 6px}
 .strip button{flex:1;min-width:2px;border:0;padding:0;background:var(--accent);opacity:.55;border-radius:1px 1px 0 0;cursor:pointer}
 .strip button:hover{opacity:1}

@@ -30,6 +30,8 @@ class Event:
     sources: list = field(default_factory=list)  # list[Source]
     status: str = "auto"  # auto | confirmed | rejected
     note: str = ""  # reviewer's note
+    month_hint: Optional[int] = None  # ordering only: month of the surrounding narrative
+    key: str = ""  # stable fingerprint of the source clause; review overlays attach to it
 
     def date_label(self) -> str:
         if self.year is None:
@@ -45,6 +47,8 @@ class Event:
         m = self.month
         if m is None and self.season:
             m = SEASON_START.get(self.season[-1], 0)
+        if m is None:
+            m = self.month_hint
         return (self.year if self.year is not None else 10**6, m or 0)
 
     def to_dict(self) -> dict:

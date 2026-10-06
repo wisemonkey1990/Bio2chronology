@@ -3,7 +3,7 @@ name: Deploy site
 on:
   push:
     branches: [main]
-    paths: ["people/**/chronology.json", "people/**/meta.json", "bio2chronology/**", ".github/workflows/pages.yml"]
+    paths: ["people/**/chronology.json", "people/**/meta.json", "people/**/review.json", "bio2chronology/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: python -m unittest discover -s tests
+      - name: Evaluate chronologies that have a gold set
+        run: for d in people/*/; do [ -f "$d/eval/gold.json" ] && python -m bio2chronology eval "$d"; done; true
       - run: python -m bio2chronology site build -o site
       - uses: actions/upload-pages-artifact@v3
         with: {path: site}

@@ -30,6 +30,9 @@ def load_person(d: Path) -> dict | None:
         "death_year": death,
         "summary": meta.get("summary", ""),
         "source": meta.get("source", ""),
+        "references": [{k: src.get(k, "") for k in ("label", "title", "url", "license")}
+                       for src in meta.get("sources", []) if src.get("url") or src.get("title")],
+        "license": meta.get("license", ""),
         "fictional": bool(meta.get("fictional")),
         "events": events,
     }

@@ -25,7 +25,9 @@
         }
       ],
       "status": "confirmed",
-      "note": "示例校订"
+      "note": "示例校订",
+      "month_hint": null,
+      "key": "5de66444a984"
     },
     {
       "id": "e0002",
@@ -50,7 +52,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "4ce475e986c6"
     },
     {
       "id": "e0003",
@@ -73,7 +77,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "6e235be3d2b2"
     },
     {
       "id": "e0004",
@@ -96,7 +102,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "64cf62286a4b"
     },
     {
       "id": "e0005",
@@ -121,7 +129,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "b1d90c65bf4e"
     },
     {
       "id": "e0006",
@@ -130,7 +140,7 @@
       "season": null,
       "time_raw": "民国十二年三月",
       "time_confidence": "explicit",
-      "time_note": "民国12年=公元1923年",
+      "time_note": "民国十二年=公元1923年",
       "summary": "民国十二年三月，沈砚秋北上抵达北平，任教于某大学",
       "category": "任职",
       "people": [],
@@ -146,7 +156,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "8232e5565831"
     },
     {
       "id": "e0007",
@@ -171,7 +183,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "9176f60406d3"
     },
     {
       "id": "e0008",
@@ -196,7 +210,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "a30269b7be25"
     },
     {
       "id": "e0009",
@@ -204,8 +220,8 @@
       "month": null,
       "season": null,
       "time_raw": "而立之年",
-      "time_confidence": "inferred",
-      "time_note": "生年1895+30岁（按周岁；若为虚岁则早一年）",
+      "time_confidence": "approx",
+      "time_note": "生年1895+30岁（按周岁；生日前的事件可能在次年）",
       "summary": "而立之年，他终于在文坛站稳脚跟",
       "category": "其他",
       "people": [],
@@ -219,7 +235,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "ef033755d394"
     },
     {
       "id": "e0010",
@@ -244,7 +262,9 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "22d677cdeb43"
     },
     {
       "id": "e0011",
@@ -269,7 +289,36 @@
         }
       ],
       "status": "auto",
-      "note": ""
+      "note": "",
+      "month_hint": null,
+      "key": "520ca9ff30c6"
+    },
+    {
+      "id": "e0012",
+      "year": null,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "unresolved",
+      "time_note": "原文无时间线索",
+      "summary": "《沈砚秋传》（虚构示例）",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "沈砚秋传"
+      ],
+      "sources": [
+        {
+          "chapter": "（前言）",
+          "paragraph": 1,
+          "quote": "《沈砚秋传》（虚构示例）"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "f935d3429f09"
     }
   ]
 }

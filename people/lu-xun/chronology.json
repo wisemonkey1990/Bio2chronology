@@ -1,0 +1,3460 @@
+{
+  "subject": "鲁迅",
+  "birth_year": 1881,
+  "events": [
+    {
+      "id": "e0001",
+      "year": 1871,
+      "month": null,
+      "season": null,
+      "time_raw": "同治十年",
+      "time_confidence": "explicit",
+      "time_note": "同治十年=公元1871年",
+      "summary": "祖父周福清（1838—1904年），同治十年（1871年）進士，選翰林院庶吉士，江西金溪县知县，捐內閣中書",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 1,
+          "quote": "祖父周福清（1838—1904年），同治十年（1871年）進士，選翰林院庶吉士，江西金溪县知县，捐內閣中書。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：谱前背景（祖父事迹），非传主本人",
+      "month_hint": null,
+      "key": "8e4b47c1d67f"
+    },
+    {
+      "id": "e0002",
+      "year": 1881,
+      "month": 8,
+      "season": null,
+      "time_raw": "清光緒七年八月",
+      "time_confidence": "explicit",
+      "time_note": "清光緒七年=公元1881年",
+      "summary": "清光緒七年八月初三（1881年9月25日），鲁迅出生於浙江省绍興府會稽縣府城内東昌坊口（周家西门口西轴线上，今屬绍興市越城区鲁迅中路229号鲁迅故居西次间楼下，鲁迅纪念馆西侧）的書香門第，覆盆桥周氏家族，名為周樟壽",
+      "category": "出生",
+      "people": [],
+      "places": [
+        "浙江省绍興府"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 1,
+          "quote": "清光緒七年八月初三（1881年9月25日），鲁迅出生於浙江省绍興府會稽縣府城内東昌坊口（周家西门口西轴线上，今屬绍興市越城区鲁迅中路229号鲁迅故居西次间楼下，鲁迅纪念馆西侧）的書香門第，覆盆桥周氏家族，名為周樟壽。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 2,
+          "quote": "我于一八八一年生在浙江省紹興府城里的一家姓周的家里。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "5d227c4d817c"
+    },
+    {
+      "id": "e0003",
+      "year": 1891,
+      "month": null,
+      "season": null,
+      "time_raw": "10歲",
+      "time_confidence": "inferred",
+      "time_note": "生年1881+10岁（按周岁；生日前的事件可能在次年）",
+      "summary": "鲁迅于10歲就讀於家鄉壽鏡吾開設的私塾三味書屋",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 1,
+          "quote": "鲁迅于10歲就讀於家鄉壽鏡吾開設的私塾三味書屋。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "a1dc9c52eca3"
+    },
+    {
+      "id": "e0004",
+      "year": 1893,
+      "month": null,
+      "season": null,
+      "time_raw": "1893年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1893年（光绪19年），周福清因為向浙江鄉試主考官殷汝璋行賄，謀求其子周伯宜錄取，被殷汝璋舉報，而被革職下獄，鲁迅兄弟則被安插到離城有三十多里的皇甫庄大舅父的家中避难",
+      "category": "迁徙",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 2,
+          "quote": "1893年（光绪19年），周福清因為向浙江鄉試主考官殷汝璋行賄，謀求其子周伯宜錄取，被殷汝璋舉報，而被革職下獄，鲁迅兄弟則被安插到離城有三十多里的皇甫庄大舅父的家中避难。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 2,
+          "quote": "但到我十三歲時，我家忽而遭了一場很大的變故，几乎什么也沒有了；我寄住在一個親戚家，有時還被稱為乞食者。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "d6b32d450601"
+    },
+    {
+      "id": "e0005",
+      "year": 1896,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：自述“約有三年多，死去了”，父亲周伯宜1896年病故",
+      "summary": "我于是決心回家，而我的父親又生了重病，約有三年多，死去了",
+      "category": "疾病",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 2,
+          "quote": "我于是決心回家，而我的父親又生了重病，約有三年多，死去了。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：自述“約有三年多，死去了”，父亲周伯宜1896年病故",
+      "month_hint": null,
+      "key": "b310d2351f80"
+    },
+    {
+      "id": "e0006",
+      "year": 1896,
+      "month": null,
+      "season": null,
+      "time_raw": "1896年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "但這八年的支出，周家家道衰落，同時期父親周伯宜也重病在床，1896年病故",
+      "category": "逝世",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 2,
+          "quote": "但這八年的支出，周家家道衰落，同時期父親周伯宜也重病在床，1896年病故。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ea36ccc3b980"
+    },
+    {
+      "id": "e0007",
+      "year": 1898,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：筹措旅费、寻无需学费的学校，紧接1898年赴南京",
+      "summary": "我漸至于連极少的學費也無法可想；我的母親便給我籌辦了一點旅費，教我去尋無需學費的學校去，因為我總不肯學做幕友或商人，——這是我鄉衰落了的讀書人家子弟所常走的兩條路",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 2,
+          "quote": "我漸至于連极少的學費也無法可想；我的母親便給我籌辦了一點旅費，教我去尋無需學費的學校去，因為我總不肯學做幕友或商人，——這是我鄉衰落了的讀書人家子弟所常走的兩條路。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：筹措旅费、寻无需学费的学校，紧接1898年赴南京",
+      "month_hint": null,
+      "key": "dbac05ad4c39"
+    },
+    {
+      "id": "e0008",
+      "year": 1898,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1898年",
+      "summary": "大約過了半年我又走出，改進礦路學堂去學開礦，畢業之后，即被派往日本去留學",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 3,
+          "quote": "大約過了半年我又走出，改進礦路學堂去學開礦，畢業之后，即被派往日本去留學。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：改入矿路学堂在1898年；同句“派往日本”在1902年，另见1902年条",
+      "month_hint": null,
+      "key": "9d47c132b89a"
+    },
+    {
+      "id": "e0009",
+      "year": 1898,
+      "month": null,
+      "season": null,
+      "time_raw": "1898年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1898年，鲁迅入读新式學堂江南水師學堂，原因是远房的叔祖周庆蕃（号椒生）在这所学校教汉文，兼当管轮堂监督",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 3,
+          "quote": "1898年，鲁迅入读新式學堂江南水師學堂，原因是远房的叔祖周庆蕃（号椒生）在这所学校教汉文，兼当管轮堂监督。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 3,
+          "quote": "其時我是十八歲，便旅行到南京，考入水師學堂了，分在机關科。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "aea727c6b6d6"
+    },
+    {
+      "id": "e0010",
+      "year": 1898,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1898年",
+      "summary": "鲁迅在就读时改名為周樹人",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 3,
+          "quote": "鲁迅在就读时改名為周樹人。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "cdae771a85ba"
+    },
+    {
+      "id": "e0011",
+      "year": 1898,
+      "month": 5,
+      "season": null,
+      "time_raw": "5月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1898年",
+      "summary": "鲁迅于5月份入学，经过三个月的试读后补为正式生，分在管轮班",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 3,
+          "quote": "鲁迅于5月份入学，经过三个月的试读后补为正式生，分在管轮班。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "e5a57bbad4bc"
+    },
+    {
+      "id": "e0012",
+      "year": 1899,
+      "month": 2,
+      "season": null,
+      "time_raw": "1899年2月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "江南陸師學堂附設礦路學堂于1899年2月开学",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 4,
+          "quote": "江南陸師學堂附設礦路學堂于1899年2月开学。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "600fb066459a"
+    },
+    {
+      "id": "e0013",
+      "year": 1899,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1899年",
+      "summary": "学校的主要目的是采煤，所以学校的功课以矿务为主",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 4,
+          "quote": "学校的主要目的是采煤，所以学校的功课以矿务为主。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：学校背景说明，非传主事迹",
+      "month_hint": 2,
+      "key": "15103b092085"
+    },
+    {
+      "id": "e0014",
+      "year": 1899,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1899年",
+      "summary": "在这里，鲁迅自学了《全体新论》和《化学卫生论》之等书籍",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "全体新论",
+        "化学卫生论"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 4,
+          "quote": "在这里，鲁迅自学了《全体新论》和《化学卫生论》之等书籍。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 2,
+      "key": "9937668e2f21"
+    },
+    {
+      "id": "e0015",
+      "year": 1899,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1899年",
+      "summary": "在这个过程中，鲁迅掌握了德语，后来据此翻译了《死魂灵》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "死魂灵"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 4,
+          "quote": "在这个过程中，鲁迅掌握了德语，后来据此翻译了《死魂灵》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 2,
+      "key": "58a878294fb6"
+    },
+    {
+      "id": "e0016",
+      "year": 1902,
+      "month": 1,
+      "season": null,
+      "time_raw": "1902年1月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1902年1月，鲁迅毕业时获得金质奖章",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 5,
+          "quote": "1902年1月，鲁迅毕业时获得金质奖章。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "c27a79ea8d6e"
+    },
+    {
+      "id": "e0017",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "廿一岁",
+      "time_confidence": "inferred",
+      "time_note": "生年1881+21岁（按周岁；生日前的事件可能在次年）",
+      "summary": "鲁迅的毕业执照写着：学生周树人，现年廿一岁，身中面白无须，浙江省绍兴府会稽人，今考得一等第三名",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 5,
+          "quote": "鲁迅的毕业执照写着：学生周树人，现年廿一岁，身中面白无须，浙江省绍兴府会稽人，今考得一等第三名。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：毕业执照引文细节，已见1902年1月毕业条",
+      "month_hint": 1,
+      "key": "2cf13dad728a"
+    },
+    {
+      "id": "e0018",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "毕业后考取了“南京矿路学堂毕业奏奖五品顶戴”的官费对日留学生",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 5,
+          "quote": "毕业后考取了“南京矿路学堂毕业奏奖五品顶戴”的官费对日留学生。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 1,
+      "key": "11618e85c14b"
+    },
+    {
+      "id": "e0019",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "鲁迅后来回忆说：“毕业，自然大家都盼望的，但一到毕业，却又有些爽然若失",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 5,
+          "quote": "鲁迅后来回忆说：“毕业，自然大家都盼望的，但一到毕业，却又有些爽然若失。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：回忆性引文，非事件",
+      "month_hint": 1,
+      "key": "3ac4ce202db8"
+    },
+    {
+      "id": "e0020",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "实在连自己也茫无把握，没有做《工欲善其事必先利其器论》的那么容易",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "工欲善其事必先利其器论"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 5,
+          "quote": "实在连自己也茫无把握，没有做《工欲善其事必先利其器论》的那么容易。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：回忆性引文，非事件",
+      "month_hint": 1,
+      "key": "2c586f4220c3"
+    },
+    {
+      "id": "e0021",
+      "year": 1902,
+      "month": 2,
+      "season": null,
+      "time_raw": "1902年2月，二十歲",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1902年2月，二十歲的鲁迅赴日本，在写给弟弟周作人的信中，他说自己要入读成城学校——日本为留学生开设的一所陆军士官预备学校",
+      "category": "教育",
+      "people": [
+        "周作人"
+      ],
+      "places": [
+        "日本"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 1,
+          "quote": "1902年2月，二十歲的鲁迅赴日本，在写给弟弟周作人的信中，他说自己要入读成城学校——日本为留学生开设的一所陆军士官预备学校。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "7785ff5ca9bc"
+    },
+    {
+      "id": "e0022",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "当时凡进成城学校的留学生，均由中国留学生陆军监督审批，所以鲁迅未能进入",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 1,
+          "quote": "当时凡进成城学校的留学生，均由中国留学生陆军监督审批，所以鲁迅未能进入。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 2,
+      "key": "cf5365f68f88"
+    },
+    {
+      "id": "e0023",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "鲁迅在弘文书院除了学日语，也经常上柔术课",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 1,
+          "quote": "鲁迅在弘文书院除了学日语，也经常上柔术课。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 2,
+      "key": "2e522cf98a83"
+    },
+    {
+      "id": "e0024",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "1902年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1902年中旬，鲁迅与许寿裳、陶成章等浙江籍留日学生在东京组织了浙江同乡会，会上决定出版百科全书式的月刊《浙江潮》，成为留日学界宣传革命的重要刊物之一",
+      "category": "著述",
+      "people": [
+        "许寿裳"
+      ],
+      "places": [],
+      "works": [
+        "浙江潮"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "1902年中旬，鲁迅与许寿裳、陶成章等浙江籍留日学生在东京组织了浙江同乡会，会上决定出版百科全书式的月刊《浙江潮》，成为留日学界宣传革命的重要刊物之一。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 2,
+      "key": "0fec307f1e9b"
+    },
+    {
+      "id": "e0025",
+      "year": 1902,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1902年",
+      "summary": "所撰稿子除了从德文版翻译各种欧美小说，还有矿物地质论文等",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "所撰稿子除了从德文版翻译各种欧美小说，还有矿物地质论文等。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：补充说明，非独立事件",
+      "month_hint": 2,
+      "key": "9bd9430ce672"
+    },
+    {
+      "id": "e0026",
+      "year": 1903,
+      "month": null,
+      "season": null,
+      "time_raw": "1903年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1903年，鲁迅参加了鼓吹革命的“浙学会”",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "1903年，鲁迅参加了鼓吹革命的“浙学会”。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "38d2c5ac8204"
+    },
+    {
+      "id": "e0027",
+      "year": 1903,
+      "month": null,
+      "season": null,
+      "time_raw": "1903年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "在《浙江潮》上，鲁迅以笔名「索子」于1903年发表近万字的《中国地质略论》，首次使用了“侏罗纪”、“白垩纪”、“猿人”、“化石”等中文名称，并明确提出“地质学”一词和其定义：“地质学者，地球之进化史也，凡岩石之成因，地壳之构造，皆所深究”",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "浙江潮",
+        "中国地质略论"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "在《浙江潮》上，鲁迅以笔名「索子」于1903年发表近万字的《中国地质略论》，首次使用了“侏罗纪”、“白垩纪”、“猿人”、“化石”等中文名称，并明确提出“地质学”一词和其定义：“地质学者，地球之进化史也，凡岩石之成因，地壳之构造，皆所深究”。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "f58636273604"
+    },
+    {
+      "id": "e0028",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：东京弘文学院毕业、决意学医在1904年",
+      "summary": "但待到在東京的豫備學校畢業，我已經決意要學醫了，原因之一是因為我确知道了新的醫學對于日本的維新有很大的助力",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 3,
+          "quote": "但待到在東京的豫備學校畢業，我已經決意要學醫了，原因之一是因為我确知道了新的醫學對于日本的維新有很大的助力。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：东京弘文学院毕业、决意学医在1904年",
+      "month_hint": null,
+      "key": "e889094bcfd1"
+    },
+    {
+      "id": "e0029",
+      "year": 1904,
+      "month": 4,
+      "season": null,
+      "time_raw": "1904年4月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "鲁迅于1904年4月从东京弘文学院毕业，获得“日本语及普通速成科”文凭",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 1,
+          "quote": "鲁迅于1904年4月从东京弘文学院毕业，获得“日本语及普通速成科”文凭。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "eede6dae1507"
+    },
+    {
+      "id": "e0030",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1904年",
+      "summary": "按清政府给予的官费资格，鲁迅应该升入东京帝国大学工科所属的采矿冶金科学习",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 1,
+          "quote": "按清政府给予的官费资格，鲁迅应该升入东京帝国大学工科所属的采矿冶金科学习。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：假设性背景（“应该升入”），未发生",
+      "month_hint": 4,
+      "key": "554fc153e4f9"
+    },
+    {
+      "id": "e0031",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1904年",
+      "summary": "但鲁迅决意学医，理由是西医对日本的维新有助力；毕业回国后救治像他父亲那样被中医误治的病人的痛苦；以及促进国人对于维新的信仰",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 1,
+          "quote": "但鲁迅决意学医，理由是西医对日本的维新有助力；毕业回国后救治像他父亲那样被中医误治的病人的痛苦；以及促进国人对于维新的信仰。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 4,
+      "key": "497713d5b389"
+    },
+    {
+      "id": "e0032",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1904年",
+      "summary": "因看不惯一些留日学生的吃喝玩乐，所以选择远离东京、地处东北偏僻小城镇的仙台医学专门学校（1912年改制东北大学医学部）",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 2,
+          "quote": "因看不惯一些留日学生的吃喝玩乐，所以选择远离东京、地处东北偏僻小城镇的仙台医学专门学校（1912年改制东北大学医学部）。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 3,
+          "quote": "我于是進了仙台（Sendai）醫學專門學校，學了兩年。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 4,
+      "key": "0b2a73dea5e5"
+    },
+    {
+      "id": "e0033",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1904年",
+      "summary": "中国驻日公使兼留学生监督杨枢向该校校长发出照会，介绍鲁迅入校",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 2,
+          "quote": "中国驻日公使兼留学生监督杨枢向该校校长发出照会，介绍鲁迅入校。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 4,
+      "key": "80ed55b3df2b"
+    },
+    {
+      "id": "e0034",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1904年",
+      "summary": "于是，鲁迅成了该校第一个中国留学生",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 2,
+          "quote": "于是，鲁迅成了该校第一个中国留学生。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 4,
+      "key": "c5c17057f611"
+    },
+    {
+      "id": "e0035",
+      "year": 1904,
+      "month": null,
+      "season": null,
+      "time_raw": "1904年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1904年年底，鲁迅成为日本光复会第一批会员",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·習醫",
+          "paragraph": 3,
+          "quote": "1904年年底，鲁迅成为日本光复会第一批会员。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 4,
+      "key": "f188e33dcb68"
+    },
+    {
+      "id": "e0036",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "1906年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "在此基础上，1906年鲁迅与江南路矿学堂同学顾琅合著完成著作《中国矿产志》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "中国矿产志"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "在此基础上，1906年鲁迅与江南路矿学堂同学顾琅合著完成著作《中国矿产志》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ec4bbeb37874"
+    },
+    {
+      "id": "e0037",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1906年",
+      "summary": "这两部作品是完全由中国人创作的最早地质专业论文之一",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·留學日本",
+          "paragraph": 2,
+          "quote": "这两部作品是完全由中国人创作的最早地质专业论文之一。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：评价性语句，非事件",
+      "month_hint": null,
+      "key": "ec1fc356c748"
+    },
+    {
+      "id": "e0038",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "1906年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1906年鲁迅在医专课堂上观看老师播放的日俄战争的幻灯片，里面有中国人给沙俄当坐探，被日军逮捕以间谍罪枪毙砍头，大量本地中国人围观",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·弃医从文",
+          "paragraph": 1,
+          "quote": "1906年鲁迅在医专课堂上观看老师播放的日俄战争的幻灯片，里面有中国人给沙俄当坐探，被日军逮捕以间谍罪枪毙砍头，大量本地中国人围观。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "5e3f3bbebcbc"
+    },
+    {
+      "id": "e0039",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1906年",
+      "summary": "鲁迅认识到：“医学并非一件紧要事，凡是愚弱的国民，即使体格如何健全，如何茁壮，也只能做毫无意义的示众的材料和看客，病死多少是不必以为不幸的",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·弃医从文",
+          "paragraph": 1,
+          "quote": "鲁迅认识到：“医学并非一件紧要事，凡是愚弱的国民，即使体格如何健全，如何茁壮，也只能做毫无意义的示众的材料和看客，病死多少是不必以为不幸的。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：弃医从文的动机；原分类“疾病”有误",
+      "month_hint": null,
+      "key": "c2c006ca8e1d"
+    },
+    {
+      "id": "e0040",
+      "year": 1906,
+      "month": 3,
+      "season": null,
+      "time_raw": "1906年3月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1906年3月，鲁迅作为大二生退学",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·弃医从文",
+          "paragraph": 1,
+          "quote": "1906年3月，鲁迅作为大二生退学。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "06ec8b65a4ee"
+    },
+    {
+      "id": "e0041",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "1906年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1906年，远在日本仙台医学专门学校留学的鲁迅被母亲鲁瑞用“母病速归”的电报召回",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "1906年，远在日本仙台医学专门学校留学的鲁迅被母亲鲁瑞用“母病速归”的电报召回，在7月26日遵照母亲的意见而与时年28岁的朱安结婚，但一生幾未与朱安有行夫妻之實。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 3,
+      "key": "cdcd450552c2"
+    },
+    {
+      "id": "e0042",
+      "year": 1906,
+      "month": 7,
+      "season": null,
+      "time_raw": "7月、28岁",
+      "time_confidence": "inferred",
+      "time_note": "“28岁”指他人年龄，未用于推算；沿用上文1906年",
+      "summary": "在7月26日遵照母亲的意见而与时年28岁的朱安结婚，但一生幾未与朱安有行夫妻之實",
+      "category": "婚育",
+      "people": [
+        "朱安"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "1906年，远在日本仙台医学专门学校留学的鲁迅被母亲鲁瑞用“母病速归”的电报召回，在7月26日遵照母亲的意见而与时年28岁的朱安结婚，但一生幾未与朱安有行夫妻之實。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "76a5c9656b17"
+    },
+    {
+      "id": "e0043",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1906年",
+      "summary": "新婚后第四天，鲁迅就又和二弟周作人等人东渡日本",
+      "category": "迁徙",
+      "people": [
+        "周作人"
+      ],
+      "places": [
+        "日本"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "新婚后第四天，鲁迅就又和二弟周作人等人东渡日本。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 7,
+      "key": "3d33ddd2374c"
+    },
+    {
+      "id": "e0044",
+      "year": 1906,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1906年",
+      "summary": "鲁迅再次东渡日本之后，从仙台来到东京，将自己的学籍从仙台医专转入东京独逸语学会（现独协大学）下属的德语学校",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "日本之"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "鲁迅再次东渡日本之后，从仙台来到东京，将自己的学籍从仙台医专转入东京独逸语学会（现独协大学）下属的德语学校。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 7,
+      "key": "f839ff138a14"
+    },
+    {
+      "id": "e0045",
+      "year": 1907,
+      "month": null,
+      "season": "夏",
+      "time_raw": "1907年夏",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1907年夏，鲁迅与许寿裳、周作人、袁文薮、苏曼殊等人尝试创办文艺杂志《新生》但终未出版",
+      "category": "著述",
+      "people": [
+        "周作人",
+        "许寿裳"
+      ],
+      "places": [],
+      "works": [
+        "新生"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "1907年夏，鲁迅与许寿裳、周作人、袁文薮、苏曼殊等人尝试创办文艺杂志《新生》但终未出版。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "a97b36275adc"
+    },
+    {
+      "id": "e0046",
+      "year": 1907,
+      "month": null,
+      "season": null,
+      "time_raw": "同年",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1907年",
+      "summary": "在此期间与周作人合译英国哈兰德、兰格合著小说《红星佚史》，并于同年年末于商务印书馆出版单行本，同时在《河南》杂志创刊号发表《人之历史》",
+      "category": "著述",
+      "people": [
+        "周作人"
+      ],
+      "places": [],
+      "works": [
+        "红星佚史",
+        "河南",
+        "人之历史"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 1,
+          "quote": "在此期间与周作人合译英国哈兰德、兰格合著小说《红星佚史》，并于同年年末于商务印书馆出版单行本，同时在《河南》杂志创刊号发表《人之历史》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 6,
+      "key": "48bfa05d8156"
+    },
+    {
+      "id": "e0047",
+      "year": 1908,
+      "month": null,
+      "season": null,
+      "time_raw": "1908年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1908年，章太炎流亡东京，于是鲁迅成为章太炎的学生",
+      "category": "迁徙",
+      "people": [
+        "章太炎"
+      ],
+      "places": [
+        "东京"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 2,
+          "quote": "1908年，章太炎流亡东京，于是鲁迅成为章太炎的学生。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "a5941c85869f"
+    },
+    {
+      "id": "e0048",
+      "year": 1908,
+      "month": 12,
+      "season": null,
+      "time_raw": "1908年12月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1908年12月，受章太炎影响，鲁迅于《河南》杂志发表《破恶声论》",
+      "category": "著述",
+      "people": [
+        "章太炎"
+      ],
+      "places": [],
+      "works": [
+        "河南",
+        "破恶声论"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·再次旅日",
+          "paragraph": 2,
+          "quote": "1908年12月，受章太炎影响，鲁迅于《河南》杂志发表《破恶声论》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ce7f1218c0a6"
+    },
+    {
+      "id": "e0049",
+      "year": 1909,
+      "month": null,
+      "season": null,
+      "time_raw": "1909年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1909年鲁迅从日本回到中国，担任浙江两级师范学堂优级生理学、初级化学教员",
+      "category": "任职",
+      "people": [],
+      "places": [
+        "中国",
+        "中國來"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 1,
+          "quote": "1909年鲁迅从日本回到中国，担任浙江两级师范学堂（今杭州高级中学）优级生理学、初级化学教员；绍兴府中学堂监学兼博物学教员；绍兴山会初级师范学堂（今绍兴文理学院）校长等职务。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 3,
+          "quote": "終于，因為我的母親和几個別的人很希望我有經濟上的幫助，我便回到中國來；這時我是二十九歲。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：原文把1910年绍兴府中学堂监学、1911年山会初级师范学堂校长两职并入此句，已分见各年",
+      "month_hint": null,
+      "key": "ffa4b472231c"
+    },
+    {
+      "id": "e0050",
+      "year": 1910,
+      "month": null,
+      "season": null,
+      "time_raw": "第二年",
+      "time_confidence": "relative",
+      "time_note": "以1909年为第一年，“第二年”为1910年",
+      "summary": "我一回國，就在浙江杭州的兩級師范學堂做化學和生理學教員，第二年就走出，到紹興中學堂去做教務長",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 4,
+          "quote": "我一回國，就在浙江杭州的兩級師范學堂做化學和生理學教員，第二年就走出，到紹興中學堂去做教務長，第三年又走出，沒有地方可去，想在一個書店去做編譯員，到底被拒絕了。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "65f2ca406113"
+    },
+    {
+      "id": "e0051",
+      "year": 1911,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：《怀旧》约作于1911年冬，1913年刊于《小说月报》",
+      "summary": "後写出第一篇小说《怀旧》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "怀旧"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 1,
+          "quote": "後写出第一篇小说《怀旧》。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：《怀旧》约作于1911年冬，1913年刊于《小说月报》",
+      "month_hint": null,
+      "key": "85436be6f463"
+    },
+    {
+      "id": "e0052",
+      "year": 1911,
+      "month": null,
+      "season": null,
+      "time_raw": "第三年",
+      "time_confidence": "relative",
+      "time_note": "以1909年为第一年，“第三年”为1911年",
+      "summary": "第三年又走出，沒有地方可去，想在一個書店去做編譯員，到底被拒絕了",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 4,
+          "quote": "我一回國，就在浙江杭州的兩級師范學堂做化學和生理學教員，第二年就走出，到紹興中學堂去做教務長，第三年又走出，沒有地方可去，想在一個書店去做編譯員，到底被拒絕了。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "1c676cc41cad"
+    },
+    {
+      "id": "e0053",
+      "year": 1911,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1911年",
+      "summary": "但革命也就發生，紹興光复后，我做了師范學校的校長",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 4,
+          "quote": "但革命也就發生，紹興光复后，我做了師范學校的校長。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "73e837780042"
+    },
+    {
+      "id": "e0054",
+      "year": 1911,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1911年",
+      "summary": "我在留學時候，只在雜志上登過几篇不好的文章",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 5,
+          "quote": "我在留學時候，只在雜志上登過几篇不好的文章。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：回顾性总结，非1911年事",
+      "month_hint": null,
+      "key": "ea271bb979e9"
+    },
+    {
+      "id": "e0055",
+      "year": 1912,
+      "month": null,
+      "season": null,
+      "time_raw": "1912年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1912年，鲁迅到中華民國教育部工作",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 2,
+          "quote": "1912年，鲁迅到中華民國教育部工作，1914年与其他章太炎弟子钱玄同、许寿裳促成教育部通过章太炎的记音方案作为国语的标音符号，即今日仍在台湾通用之注音符号前身。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "799e712421ae"
+    },
+    {
+      "id": "e0056",
+      "year": 1912,
+      "month": 5,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：教育部随临时政府北迁在1912年5月",
+      "summary": "袁世凱做大總統後，他隨政府搬到北京，歷任教育部社會教育司第1科科長、教育部僉事",
+      "category": "任职",
+      "people": [],
+      "places": [
+        "北京"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 2,
+          "quote": "袁世凱做大總統後，他隨政府搬到北京，歷任教育部社會教育司第1科科長、教育部僉事。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：教育部随临时政府北迁在1912年5月",
+      "month_hint": null,
+      "key": "a7bff3ca8e75"
+    },
+    {
+      "id": "e0057",
+      "year": 1913,
+      "month": null,
+      "season": null,
+      "time_raw": "1914年",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：读音统一会议定注音字母在1913年（1918年公布）；原文作1914年",
+      "summary": "1914年与其他章太炎弟子钱玄同、许寿裳促成教育部通过章太炎的记音方案作为国语的标音符号，即今日仍在台湾通用之注音符号前身",
+      "category": "其他",
+      "people": [
+        "许寿裳",
+        "钱玄同",
+        "章太炎"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 2,
+          "quote": "1912年，鲁迅到中華民國教育部工作，1914年与其他章太炎弟子钱玄同、许寿裳促成教育部通过章太炎的记音方案作为国语的标音符号，即今日仍在台湾通用之注音符号前身。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：读音统一会议定注音字母在1913年（1918年公布）；原文作1914年",
+      "month_hint": null,
+      "key": "c4b70308d712"
+    },
+    {
+      "id": "e0058",
+      "year": 1916,
+      "month": null,
+      "season": null,
+      "time_raw": "1916年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1916年袁世凯病亡，国人“皆喜形于色”，鲁迅不畏流言",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 2,
+          "quote": "1916年袁世凯病亡，国人“皆喜形于色”，鲁迅不畏流言，于6月15日随友前往吊唁。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：原分类“疾病”有误（袁世凯病亡，非传主）",
+      "month_hint": null,
+      "key": "d4923eb6f89e"
+    },
+    {
+      "id": "e0059",
+      "year": 1916,
+      "month": 6,
+      "season": null,
+      "time_raw": "6月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1916年",
+      "summary": "于6月15日随友前往吊唁",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "吊唁"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 2,
+          "quote": "1916年袁世凯病亡，国人“皆喜形于色”，鲁迅不畏流言，于6月15日随友前往吊唁。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "04d5f791317f"
+    },
+    {
+      "id": "e0060",
+      "year": 1918,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1918年",
+      "summary": "現在匯印成書的只有一本短篇小說集《吶喊》，其余還散在几种雜志上",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "吶喊"
+      ],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 5,
+          "quote": "現在匯印成書的只有一本短篇小說集《吶喊》，其余還散在几种雜志上。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：系1925年作者自述时的现状，并非1918年事；《呐喊》出版于1923年",
+      "month_hint": null,
+      "key": "8aeab86e6a07"
+    },
+    {
+      "id": "e0061",
+      "year": 1918,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1918年",
+      "summary": "別的，除翻譯不計外，印成的又有一本《中國小說史略》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "中國小說史略"
+      ],
+      "sources": [
+        {
+          "chapter": "自叙传略",
+          "paragraph": 5,
+          "quote": "別的，除翻譯不計外，印成的又有一本《中國小說史略》。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：系1925年作者自述时的现状；《中国小说史略》出版于1923–1924年",
+      "month_hint": null,
+      "key": "e414ac2d810e"
+    },
+    {
+      "id": "e0062",
+      "year": 1918,
+      "month": null,
+      "season": null,
+      "time_raw": "1918年，36岁",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1918年，36岁的周树人首次用“鲁迅”为笔名，在《新青年》上发表中国史上第一篇用现代形式创作的短篇白话文小说《狂人日记》",
+      "category": "著述",
+      "people": [
+        "钱玄同"
+      ],
+      "places": [],
+      "works": [
+        "新青年",
+        "狂人日记"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·發表創作",
+          "paragraph": 1,
+          "quote": "1918年，36岁的周树人首次用“鲁迅”为笔名，在《新青年》上发表中国史上第一篇用现代形式创作的短篇白话文小说《狂人日记》。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 5,
+          "quote": "初做小說是一九一八年，因了我的朋友錢玄同的勸告，做來登在《新青年》上的。"
+        },
+        {
+          "chapter": "自叙传略",
+          "paragraph": 5,
+          "quote": "這時才用“魯迅”的筆名（pen name）；也常用別的名字做一點短論。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "16ddcf5e1f3f"
+    },
+    {
+      "id": "e0063",
+      "year": 1919,
+      "month": 11,
+      "season": null,
+      "time_raw": "1919年11月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1919年11月，魯迅、周作人、周建人三兄弟卖掉绍兴的老宅，合力购置北京西城八道湾11号的四合院，全家居住于此",
+      "category": "其他",
+      "people": [
+        "周作人",
+        "周建人"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 5,
+          "quote": "1919年11月，魯迅、周作人、周建人三兄弟卖掉绍兴的老宅，合力购置北京西城八道湾11号的四合院，全家居住于此。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "13d38b8c70f9"
+    },
+    {
+      "id": "e0064",
+      "year": 1920,
+      "month": 9,
+      "season": null,
+      "time_raw": "1920年9月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1920年9月蔡元培签发《北京大学聘书》邀请鲁迅到北京大学后，其职务也是讲师",
+      "category": "任职",
+      "people": [
+        "蔡元培"
+      ],
+      "places": [],
+      "works": [
+        "北京大学聘书"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 3,
+          "quote": "1920年9月蔡元培签发《北京大学聘书》邀请鲁迅到北京大学后，其职务也是讲师。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：原分类“著述”有误",
+      "month_hint": null,
+      "key": "8a1cec7f405e"
+    },
+    {
+      "id": "e0065",
+      "year": 1920,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1920年",
+      "summary": "这是由于当时按照惯例一般只有专任教师才可聘为教授，兼课者为讲师",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 3,
+          "quote": "这是由于当时按照惯例一般只有专任教师才可聘为教授，兼课者为讲师。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：背景解释，非事件",
+      "month_hint": 9,
+      "key": "683db4dcd95c"
+    },
+    {
+      "id": "e0066",
+      "year": 1921,
+      "month": 12,
+      "season": null,
+      "time_raw": "1921年12月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1921年12月，他还发表中篇小说《阿Q正传》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "阿Q正传"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·發表創作",
+          "paragraph": 1,
+          "quote": "1921年12月，他还发表中篇小说《阿Q正传》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "84a31723691d"
+    },
+    {
+      "id": "e0067",
+      "year": 1923,
+      "month": 7,
+      "season": null,
+      "time_raw": "1923年7月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1923年7月18日，周作人写信与鲁迅绝交",
+      "category": "其他",
+      "people": [
+        "周作人"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 5,
+          "quote": "1923年7月18日，周作人写信与鲁迅绝交。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "6ed4c90e5f55"
+    },
+    {
+      "id": "e0068",
+      "year": 1923,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1923年",
+      "summary": "随后鲁迅搬到砖塔胡同居住",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "砖塔胡同居住"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 5,
+          "quote": "随后鲁迅搬到砖塔胡同居住。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 7,
+      "key": "734fdc5be715"
+    },
+    {
+      "id": "e0069",
+      "year": 1924,
+      "month": null,
+      "season": null,
+      "time_raw": "1924年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1924年，鲁迅、周作人、林语堂、钱玄同等人创办同人周刊《语丝》",
+      "category": "著述",
+      "people": [
+        "周作人",
+        "钱玄同"
+      ],
+      "places": [],
+      "works": [
+        "语丝"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·發表創作",
+          "paragraph": 1,
+          "quote": "1924年，鲁迅、周作人、林语堂、钱玄同等人创办同人周刊《语丝》。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "28d445d24b49"
+    },
+    {
+      "id": "e0070",
+      "year": 1924,
+      "month": null,
+      "season": null,
+      "time_raw": "同年",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1924年",
+      "summary": "同年，鲁迅获諾貝爾文學獎提名并與泰戈爾会见、合照",
+      "category": "交往",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·發表創作",
+          "paragraph": 1,
+          "quote": "同年，鲁迅获諾貝爾文學獎提名并與泰戈爾会见、合照。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "9908a0417d5b"
+    },
+    {
+      "id": "e0071",
+      "year": 1924,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1924年",
+      "summary": "魯迅共做了14年的中華民國北洋政府的公務員，主要的業績有：擔任國語統一會教育部代表；協調制定注音字母；與錢稻孫、許壽裳2位科長合作中華民國國徽設計案；執筆《致國務院國徽擬圖說明書》；并设计了当时北京大学的校徽，（“北大”二字的美术字体）；分管圖書情報（圖書資訊）業務；督導京師圖書館（現中國國家圖書館）等",
+      "category": "著述",
+      "people": [
+        "许寿裳"
+      ],
+      "places": [],
+      "works": [
+        "致國務院國徽擬圖說明書"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 1,
+          "quote": "魯迅共做了14年的中華民國北洋政府的公務員，主要的業績有：擔任國語統一會教育部代表；協調制定注音字母；與錢稻孫、許壽裳2位科長合作中華民國國徽設計案；執筆《致國務院國徽擬圖說明書》；并设计了当时北京大学的校徽，（“北大”二字的美术字体）；分管圖書情報（圖書資訊）業務；督導京師圖書館（現中國國家圖書館）等。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：综述性语句（14年公务员业绩），非1924年事",
+      "month_hint": null,
+      "key": "64e258cf5288"
+    },
+    {
+      "id": "e0072",
+      "year": 1925,
+      "month": 4,
+      "season": null,
+      "time_raw": "1925年4月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "直到1925年4月章士釗受北洋政府任命成為司法总长兼教育总长，支持當時被任命為北京女子师范大学校長的杨荫榆壓制反對其校務施政的學界浪潮",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 1,
+          "quote": "直到1925年4月章士釗受北洋政府任命成為司法总长兼教育总长，支持當時被任命為北京女子师范大学校長的杨荫榆壓制反對其校務施政的學界浪潮。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "89c57abc5f02"
+    },
+    {
+      "id": "e0073",
+      "year": 1925,
+      "month": 8,
+      "season": null,
+      "time_raw": "同年8月",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1925年",
+      "summary": "同年8月，章士釗強令關停北京女子師大",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 2,
+          "quote": "同年8月，章士釗強令關停北京女子師大。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ccedea8faaf9"
+    },
+    {
+      "id": "e0074",
+      "year": 1926,
+      "month": null,
+      "season": null,
+      "time_raw": "1926年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1926年三一八惨案爆發后，易培基等人被中华民国臨時執政段祺瑞通緝了，不過鲁迅并没有被通缉",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 3,
+          "quote": "1926年三一八惨案爆發后，易培基等人被中华民国臨時執政段祺瑞通緝了，不過鲁迅并没有被通缉。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "0f9944843eeb"
+    },
+    {
+      "id": "e0075",
+      "year": 1926,
+      "month": 1,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：易培基任教育总长、鲁迅复职在1926年1月",
+      "summary": "好友易培基接任教育總長後，簽署了讓僉事鲁迅復職的命令，並以兼國立北京女子師範大學校長身份發出新的教授聘書",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 2,
+          "quote": "好友易培基接任教育總長後，簽署了讓僉事鲁迅復職的命令，並以兼國立北京女子師範大學校長身份發出新的教授聘書。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：易培基任教育总长、鲁迅复职在1926年1月",
+      "month_hint": 8,
+      "key": "9186099d4a81"
+    },
+    {
+      "id": "e0076",
+      "year": 1926,
+      "month": 2,
+      "season": null,
+      "time_raw": "1926年2月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1926年2月1日，他被北京女子师范大学校长易培基破格聘请为国文系教授",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·回國任職",
+          "paragraph": 3,
+          "quote": "1926年2月1日，他被北京女子师范大学校长易培基破格聘请为国文系教授。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "1d0fd5a7c4d7"
+    },
+    {
+      "id": "e0077",
+      "year": 1926,
+      "month": 8,
+      "season": null,
+      "time_raw": "1926年8月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1926年8月，鲁迅因支持北京学生爱国运动，抗议三一八惨案，對北洋政府失望，于是南下厦门大学任文科教授",
+      "category": "任职",
+      "people": [],
+      "places": [
+        "厦门大"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "1926年8月，鲁迅因支持北京学生爱国运动，抗议三一八惨案，對北洋政府失望，于是南下厦门大学任文科教授。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ac50f568486d"
+    },
+    {
+      "id": "e0078",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "1927年到1936年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1927年到1936年间，鲁迅创作了很多回忆性的散文与大量思想性的杂文，翻译、介绍外国的文学作品",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 3,
+          "quote": "1927年到1936年间，鲁迅创作了很多回忆性的散文与大量思想性的杂文，翻译、介绍外国的文学作品。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "64962dc02cf9"
+    },
+    {
+      "id": "e0079",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "鲁迅在上海期间，和宋庆龄、陈赓有交往",
+      "category": "交往",
+      "people": [
+        "宋庆龄"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 4,
+          "quote": "鲁迅在上海期间，和宋庆龄、陈赓有交往。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：综述性语句，无具体时间",
+      "month_hint": null,
+      "key": "cf00901a1c91"
+    },
+    {
+      "id": "e0080",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "鲁迅扶植奖掖文学青年，包括柔石、白莽、萧军、萧红等，批评过当时笔名为“狄克”的张春桥",
+      "category": "著述",
+      "people": [
+        "萧军",
+        "萧红"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 4,
+          "quote": "鲁迅扶植奖掖文学青年，包括柔石、白莽、萧军、萧红等，批评过当时笔名为“狄克”的张春桥。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：综述性语句，无具体时间",
+      "month_hint": null,
+      "key": "a0a93d0c4ac0"
+    },
+    {
+      "id": "e0081",
+      "year": 1927,
+      "month": 1,
+      "season": null,
+      "time_raw": "1927年1月16日，45岁",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1927年1月16日，45岁的鲁迅离开厦门，抵达广州，并于19日晨在孙伏园等人的陪伴下移入国立中山大学，任中国语言文学系主任兼教务主任",
+      "category": "任职",
+      "people": [],
+      "places": [
+        "广州"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "1927年1月16日，45岁的鲁迅离开厦门，抵达广州，并于19日晨在孙伏园等人的陪伴下移入国立中山大学，任中国语言文学系主任兼教务主任，并与自己29岁的学生许广平同居。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "f3642c997597"
+    },
+    {
+      "id": "e0082",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "并与自己29岁的学生许广平同居",
+      "category": "婚育",
+      "people": [
+        "许广平"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "1927年1月16日，45岁的鲁迅离开厦门，抵达广州，并于19日晨在孙伏园等人的陪伴下移入国立中山大学，任中国语言文学系主任兼教务主任，并与自己29岁的学生许广平同居。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 1,
+      "key": "70260f93f1b7"
+    },
+    {
+      "id": "e0083",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "当时国立中山大学校长朱家骅请鲁迅到校，朱在中大欢迎会上尊称鲁迅为“战斗者，革命者”",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "当时国立中山大学校长朱家骅请鲁迅到校，朱在中大欢迎会上尊称鲁迅为“战斗者，革命者”。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 1,
+      "key": "09cd79ec1f71"
+    },
+    {
+      "id": "e0084",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "鲁迅认为，顾颉刚自北大毕业才6年就当研究教授，因而很不服气，声称只要顾来他便走人",
+      "category": "教育",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "鲁迅认为，顾颉刚自北大毕业才6年就当研究教授，因而很不服气，声称只要顾来他便走人。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 1,
+      "key": "67241c8a6f3e"
+    },
+    {
+      "id": "e0085",
+      "year": 1927,
+      "month": 2,
+      "season": null,
+      "time_raw": "2月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1927年",
+      "summary": "2月18-19日，鲁迅赴香港在上環基督教青年會禮堂舉行兩場題為「無聲的中國」及「老調子已經唱完」的演講",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "香港在上環基督教青"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在南方",
+          "paragraph": 1,
+          "quote": "2月18-19日，鲁迅赴香港在上環基督教青年會禮堂舉行兩場題為「無聲的中國」及「老調子已經唱完」的演講。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "50c6f3366927"
+    },
+    {
+      "id": "e0086",
+      "year": 1927,
+      "month": 4,
+      "season": null,
+      "time_raw": "1927年4月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1927年4月12日，蒋介石发动政变，是谓四一二事件，几天后又发生了广州四一五事变",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 1,
+          "quote": "1927年4月12日，蒋介石发动政变，是谓四一二事件，几天后又发生了广州四一五事变。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "a34bc1bbe6f3"
+    },
+    {
+      "id": "e0087",
+      "year": 1927,
+      "month": 10,
+      "season": null,
+      "time_raw": "同年10月",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1927年",
+      "summary": "同年10月，鲁迅搬至上海",
+      "category": "迁徙",
+      "people": [],
+      "places": [
+        "上海"
+      ],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 1,
+          "quote": "同年10月，鲁迅搬至上海。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ebdcd61c0964"
+    },
+    {
+      "id": "e0088",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "1927年中旬到1929年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1927年中旬到1929年，创造社与太阳社的左派成员和鲁迅展开了论战，他们批评鲁迅“开倒车”，“不再呐喊”，是“青年的绊脚石”，是“以趣味为中心的文艺”，郭沫若甚至称他是法西斯分子，鲁迅则认为他们“把宣传当文艺”、“技巧拙劣”、“极左倾”、“不敢正视革命自身的暴力和黑暗”，是才子加流氓，鲁迅进一步提出人的性格、感情等带有阶级性，但并不只有阶级性",
+      "category": "交往",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 2,
+          "quote": "1927年中旬到1929年，创造社与太阳社的左派成员和鲁迅展开了论战，他们批评鲁迅“开倒车”，“不再呐喊”，是“青年的绊脚石”，是“以趣味为中心的文艺”，郭沫若甚至称他是法西斯分子，鲁迅则认为他们“把宣传当文艺”、“技巧拙劣”、“极左倾”、“不敢正视革命自身的暴力和黑暗”，是才子加流氓，鲁迅进一步提出人的性格、感情等带有阶级性，但并不只有阶级性。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": 10,
+      "key": "e9adb77cf2b9"
+    },
+    {
+      "id": "e0089",
+      "year": 1927,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1927年",
+      "summary": "鲁迅的论战文章主要收录于《三闲集》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "三闲集"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 2,
+          "quote": "鲁迅的论战文章主要收录于《三闲集》。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：补充说明，非事件",
+      "month_hint": 10,
+      "key": "83eb0ebca714"
+    },
+    {
+      "id": "e0090",
+      "year": 1927,
+      "month": 12,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：大学院成立于1927年，鲁迅受聘特约撰述员在1927年12月",
+      "summary": "蔡元培将教育部改革为大學院期间，魯迅被蔡元培聘為大學院特約撰述員",
+      "category": "任职",
+      "people": [
+        "蔡元培"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 3,
+          "quote": "蔡元培将教育部改革为大學院期间，魯迅被蔡元培聘為大學院特約撰述員。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：大学院成立于1927年，鲁迅受聘特约撰述员在1927年12月",
+      "month_hint": null,
+      "key": "b6dff07297b3"
+    },
+    {
+      "id": "e0091",
+      "year": 1928,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "explicit",
+      "time_note": "校订：预审（Claude，待人工确认）：大学院改回教育部在1928年",
+      "summary": "大學院改回教育部后，鲁迅的职位变为特约编译",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 3,
+          "quote": "大學院改回教育部后，鲁迅的职位变为特约编译。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：大学院改回教育部在1928年",
+      "month_hint": null,
+      "key": "6d00ae1abae9"
+    },
+    {
+      "id": "e0092",
+      "year": 1930,
+      "month": 2,
+      "season": null,
+      "time_raw": "1930年2月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "鲁迅認為以蒋介石为领导的国民政府不顾民众意愿肆意行事，于是在1930年2月13日，鲁迅與其他人在上海成立了中国自由运动大同盟，后又加入了左翼作家联盟和中国民权保障同盟，但鲁迅与左联部分成員有很多思想上的冲突",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 3,
+          "quote": "鲁迅認為以蒋介石为领导的国民政府不顾民众意愿肆意行事，于是在1930年2月13日，鲁迅與其他人在上海成立了中国自由运动大同盟，后又加入了左翼作家联盟和中国民权保障同盟，但鲁迅与左联部分成員有很多思想上的冲突。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ed74df33f50e"
+    },
+    {
+      "id": "e0093",
+      "year": 1931,
+      "month": null,
+      "season": null,
+      "time_raw": "1931年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "自1931年起，鲁迅大力倡导木刻版画，是為中國創作版畫的先鋒",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 5,
+          "quote": "自1931年起，鲁迅大力倡导木刻版画，是為中國創作版畫的先鋒。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "377a793b3165"
+    },
+    {
+      "id": "e0094",
+      "year": 1932,
+      "month": null,
+      "season": null,
+      "time_raw": "1932年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1932年起，魯迅不再兼任教育部特約編譯",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在教育部",
+          "paragraph": 4,
+          "quote": "1932年起，魯迅不再兼任教育部特約編譯。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "9a79e5f800ed"
+    },
+    {
+      "id": "e0095",
+      "year": 1932,
+      "month": null,
+      "season": null,
+      "time_raw": "1932年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1932年淞沪抗战爆发",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "1932年淞沪抗战爆发。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "fd77c2c6998e"
+    },
+    {
+      "id": "e0096",
+      "year": 1932,
+      "month": 1,
+      "season": null,
+      "time_raw": "1月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1932年",
+      "summary": "1月30日，鲁迅和周建人两家共十口人躲进鲁迅的密友内山完造创办的内山书店的三楼避难",
+      "category": "迁徙",
+      "people": [
+        "周建人",
+        "内山完造"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "1月30日，鲁迅和周建人两家共十口人躲进鲁迅的密友内山完造创办的内山书店的三楼避难。"
+        }
+      ],
+      "status": "auto",
+      "note": "预审（Claude，待人工确认）：原分类“任职”有误",
+      "month_hint": null,
+      "key": "5a0b3d929ac2"
+    },
+    {
+      "id": "e0097",
+      "year": 1932,
+      "month": 2,
+      "season": null,
+      "time_raw": "2月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1932年",
+      "summary": "2月6日，鲁迅和周建人一家以及仆人等十人又到英租界内的内山书店分店避难",
+      "category": "迁徙",
+      "people": [
+        "周建人"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "2月6日，鲁迅和周建人一家以及仆人等十人又到英租界内的内山书店分店避难。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ded6a25a3fa6"
+    },
+    {
+      "id": "e0098",
+      "year": 1932,
+      "month": null,
+      "season": null,
+      "time_raw": "同年",
+      "time_confidence": "relative",
+      "time_note": "“同年”指上文1932年",
+      "summary": "同年，国民政府声称古物南运，是出于战略关系的考虑，“须暂时放弃北平，以便引敌深入",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "同年，国民政府声称古物南运，是出于战略关系的考虑，“须暂时放弃北平，以便引敌深入。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：时评引述，非传主事迹",
+      "month_hint": 2,
+      "key": "1fdc5f9d72a4"
+    },
+    {
+      "id": "e0099",
+      "year": 1932,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1932年",
+      "summary": "并说政府搬运古物，“并非因为古物的‘古’，倒是为了它在失掉北平之后，还可以随身带着，随时卖出铜钱来",
+      "category": "迁徙",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "并说政府搬运古物，“并非因为古物的‘古’，倒是为了它在失掉北平之后，还可以随身带着，随时卖出铜钱来。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：时评引述，非传主事迹",
+      "month_hint": 2,
+      "key": "8b930f070745"
+    },
+    {
+      "id": "e0100",
+      "year": 1932,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1932年",
+      "summary": "”并认为《淞沪停战协定》实质是出卖上海，与日本分赃",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "淞沪停战协定"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 6,
+          "quote": "”并认为《淞沪停战协定》实质是出卖上海，与日本分赃。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：时评引述，非传主事迹",
+      "month_hint": 2,
+      "key": "a36a12da9de2"
+    },
+    {
+      "id": "e0101",
+      "year": 1933,
+      "month": 4,
+      "season": null,
+      "time_raw": "1933年4月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1933年4月，内山完造以内山书店职员的名义替鲁迅租下大陆新村的住所（今上海鲁迅故居）",
+      "category": "其他",
+      "people": [
+        "内山完造"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 7,
+          "quote": "1933年4月，内山完造以内山书店职员的名义替鲁迅租下大陆新村的住所（今上海鲁迅故居）。"
+        },
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 7,
+          "quote": "鲁迅自1933年4月11日至逝世前一直居住于此。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "8d47b795339d"
+    },
+    {
+      "id": "e0102",
+      "year": 1935,
+      "month": null,
+      "season": null,
+      "time_raw": "1935年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1935年，抗日形势更加迫切，中国共产党支持的周扬等人提出“国防文学”的口号",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 8,
+          "quote": "1935年，抗日形势更加迫切，中国共产党支持的周扬等人提出“国防文学”的口号，1936年6月，胡风在鲁迅支持下提出“民族革命战争的大众文学”口号，激发了中国文坛关于两个口号之争。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "4aadbe2cca10"
+    },
+    {
+      "id": "e0103",
+      "year": 1936,
+      "month": 6,
+      "season": null,
+      "time_raw": "1936年6月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1936年6月，胡风在鲁迅支持下提出“民族革命战争的大众文学”口号，激发了中国文坛关于两个口号之争",
+      "category": "其他",
+      "people": [
+        "胡风"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 8,
+          "quote": "1935年，抗日形势更加迫切，中国共产党支持的周扬等人提出“国防文学”的口号，1936年6月，胡风在鲁迅支持下提出“民族革命战争的大众文学”口号，激发了中国文坛关于两个口号之争。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "ac1278eced5f"
+    },
+    {
+      "id": "e0104",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "鲁迅逝世以后，论争逐渐平息",
+      "category": "逝世",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·在上海的晩年",
+          "paragraph": 8,
+          "quote": "鲁迅逝世以后，论争逐渐平息。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：身后事的概述",
+      "month_hint": 6,
+      "key": "f49f85f7539f"
+    },
+    {
+      "id": "e0105",
+      "year": 1936,
+      "month": 9,
+      "season": null,
+      "time_raw": "1936年9月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1936年9月5日，鲁迅写了一篇题为《死》的文章",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "死"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 1,
+          "quote": "1936年9月5日，鲁迅写了一篇题为《死》的文章，后于9月20日发表在杂志上，立有遺囑共有7条，其中前几条交代丧事从简；第5条交代幼兒周海嬰“倘无才能，可寻点小事情过活，万不可去做空头文学家或美术家”；第6条是对别人应许的事物不可当真；最后一条是万勿接近“损着别人的牙眼，却反对报复，主张宽容的人”。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "765dc7b3e071"
+    },
+    {
+      "id": "e0106",
+      "year": 1936,
+      "month": 9,
+      "season": null,
+      "time_raw": "9月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "后于9月20日发表在杂志上，立有遺囑共有7条，其中前几条交代丧事从简；第5条交代幼兒周海嬰“倘无才能，可寻点小事情过活，万不可去做空头文学家或美术家”；第6条是对别人应许的事物不可当真；最后一条是万勿接近“损着别人的牙眼，却反对报复，主张宽容的人”",
+      "category": "著述",
+      "people": [
+        "周海婴"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 1,
+          "quote": "1936年9月5日，鲁迅写了一篇题为《死》的文章，后于9月20日发表在杂志上，立有遺囑共有7条，其中前几条交代丧事从简；第5条交代幼兒周海嬰“倘无才能，可寻点小事情过活，万不可去做空头文学家或美术家”；第6条是对别人应许的事物不可当真；最后一条是万勿接近“损着别人的牙眼，却反对报复，主张宽容的人”。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "f33d1da8001e"
+    },
+    {
+      "id": "e0107",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "1936年10月",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1936年10月19日清晨5时25分，鲁迅在上海因肺结核病去世",
+      "category": "逝世",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 2,
+          "quote": "1936年10月19日清晨5时25分，鲁迅在上海因肺结核病去世，終年55岁。"
+        },
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 2,
+          "quote": "1936年10月19日清晨5时25分，鲁迅在上海因肺结核病去世，終年55岁。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "5356a9982166"
+    },
+    {
+      "id": "e0108",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "委员会立即研究决定：由吕骥、张庚、冼星海、任钧、任光、周钢鸣六位著名的年轻音乐家，突击创作三首挽歌，组织歌咏队教唱，悼念鲁迅；同时，还特别委托吕骥谱写一首准备在葬礼仪式上哀乐式的《安息歌》谱曲",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "安息歌"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 3,
+          "quote": "委员会立即研究决定：由吕骥、张庚、冼星海、任钧、任光、周钢鸣六位著名的年轻音乐家，突击创作三首挽歌，组织歌咏队教唱，悼念鲁迅；同时，还特别委托吕骥谱写一首准备在葬礼仪式上哀乐式的《安息歌》谱曲。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "1dd6bd845cbc"
+    },
+    {
+      "id": "e0109",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "在青年会，张庚作词、吕骥谱曲《鲁迅先生挽歌》，麦新抄写歌曲、刻写蜡纸、油印，分头送出去，让各个合唱队教唱",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "鲁迅先生挽歌"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 3,
+          "quote": "在青年会，张庚作词、吕骥谱曲《鲁迅先生挽歌》，麦新抄写歌曲、刻写蜡纸、油印，分头送出去，让各个合唱队教唱。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "46eef83032b4"
+    },
+    {
+      "id": "e0110",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月19日下午3时，鲁迅的遗体移入胶州路万国殡仪馆",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 3,
+          "quote": "10月19日下午3时，鲁迅的遗体移入胶州路万国殡仪馆。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "c01a6c3803ea"
+    },
+    {
+      "id": "e0111",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月19日晚，在殡仪馆为鲁迅守灵的是萧军、黄源、胡风、雨田、周文5位青年作家",
+      "category": "其他",
+      "people": [
+        "萧军",
+        "胡风"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 3,
+          "quote": "10月19日晚，在殡仪馆为鲁迅守灵的是萧军、黄源、胡风、雨田、周文5位青年作家。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "ddda095d2043"
+    },
+    {
+      "id": "e0112",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "中共中央和中华苏维埃临时中央政府为周树人先生的病逝发出3份通电：致鲁迅先生的夫人许广平的慰问唁电；致南京国民政府的电文提出为鲁迅先生举行国葬等要求，遭国民政府拒绝",
+      "category": "逝世",
+      "people": [
+        "许广平"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 4,
+          "quote": "中共中央和中华苏维埃临时中央政府为周树人先生的病逝发出3份通电：致鲁迅先生的夫人许广平的慰问唁电；致南京国民政府的电文提出为鲁迅先生举行国葬等要求，遭国民政府拒绝。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "98578d57feca"
+    },
+    {
+      "id": "e0113",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "只是让上海市长吴铁城到灵堂致哀，并以他个人名义敬献花圈而已，《告全国同胞和全世界人士书》的通电",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "告全国同胞和全世界人士书"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 4,
+          "quote": "只是让上海市长吴铁城到灵堂致哀，并以他个人名义敬献花圈而已，《告全国同胞和全世界人士书》的通电。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "1ef5e42956dc"
+    },
+    {
+      "id": "e0114",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月20日上午9时至下午5时，人们开始瞻仰鲁迅遗容",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 5,
+          "quote": "10月20日上午9时至下午5时，人们开始瞻仰鲁迅遗容。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "5e6c66bfdddd"
+    },
+    {
+      "id": "e0115",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月21日上午9时至下午2时，仍为各界瞻仰鲁迅遗容的时间",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 5,
+          "quote": "10月21日上午9时至下午2时，仍为各界瞻仰鲁迅遗容的时间。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "c55b8e8a1a86"
+    },
+    {
+      "id": "e0116",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月21日下午3时，鲁迅入殓",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 6,
+          "quote": "10月21日下午3时，鲁迅入殓。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "6cc3a647e937"
+    },
+    {
+      "id": "e0117",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月21日下午16时，覆盖灵柩用的绸幛和出丧的乐队还没有准备好，沈钧儒嘱咐当时担任上海各界救国联合会干事的姚士彦马上去办理",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 7,
+          "quote": "10月21日下午16时，覆盖灵柩用的绸幛和出丧的乐队还没有准备好，沈钧儒嘱咐当时担任上海各界救国联合会干事的姚士彦马上去办理。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "2fb1f464dd3b"
+    },
+    {
+      "id": "e0118",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月22日是为鲁迅出殡送葬的日子",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 8,
+          "quote": "10月22日是为鲁迅出殡送葬的日子。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "d85cd62a63b7"
+    },
+    {
+      "id": "e0119",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月22日下午1时50分，举行隆重的“启灵祭”",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 8,
+          "quote": "10月22日下午1时50分，举行隆重的“启灵祭”。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": null,
+      "key": "dc0ab2944304"
+    },
+    {
+      "id": "e0120",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "葬仪的行列准备出发，青年蜂拥而上，争取着灵堂的挽联、悼词的轴子，高高举起，加入送葬队列",
+      "category": "任职",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 8,
+          "quote": "葬仪的行列准备出发，青年蜂拥而上，争取着灵堂的挽联、悼词的轴子，高高举起，加入送葬队列。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "d9b5b772418a"
+    },
+    {
+      "id": "e0121",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "挽歌队走在队伍中间，一边行进，一边在总指挥、年轻音乐家麦新的指挥下，流着热泪高唱着张庚作词、吕骥谱曲的《鲁迅先生挽歌》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "鲁迅先生挽歌"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 8,
+          "quote": "挽歌队走在队伍中间，一边行进，一边在总指挥、年轻音乐家麦新的指挥下，流着热泪高唱着张庚作词、吕骥谱曲的《鲁迅先生挽歌》。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "d0d26f8958a8"
+    },
+    {
+      "id": "e0122",
+      "year": 1936,
+      "month": 10,
+      "season": null,
+      "time_raw": "10月",
+      "time_confidence": "inferred",
+      "time_note": "沿用上文1936年",
+      "summary": "10月22日下午4时30分，在万国公墓墓地举行了隆重的安葬仪式，现场人山人海，约两万人",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 9,
+          "quote": "10月22日下午4时30分，在万国公墓墓地举行了隆重的安葬仪式，现场人山人海，约两万人。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "b7a81c6c5b4b"
+    },
+    {
+      "id": "e0123",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "宋庆龄、蔡元培、沈钧儒、内山完造、邹韬奋先后发表了安葬致辞",
+      "category": "著述",
+      "people": [
+        "蔡元培",
+        "内山完造",
+        "宋庆龄"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 9,
+          "quote": "宋庆龄、蔡元培、沈钧儒、内山完造、邹韬奋先后发表了安葬致辞。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "592e3d62b1d4"
+    },
+    {
+      "id": "e0124",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "”田军（即萧军）代表“治丧办事处”同仁和《译文》等四个杂志社同仁作了简短的致词",
+      "category": "著述",
+      "people": [
+        "萧军"
+      ],
+      "places": [],
+      "works": [
+        "译文"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 9,
+          "quote": "”田军（即萧军）代表“治丧办事处”同仁和《译文》等四个杂志社同仁作了简短的致词。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "3f190495475d"
+    },
+    {
+      "id": "e0125",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "吕骥指挥在场全体人士齐唱为鲁迅创作的《安息歌》",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "安息歌"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 9,
+          "quote": "吕骥指挥在场全体人士齐唱为鲁迅创作的《安息歌》。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "28ccc6d552d7"
+    },
+    {
+      "id": "e0126",
+      "year": 1936,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1936年",
+      "summary": "墓碑上“鲁迅先生之墓”六个稚嫩的字，是鲁迅年仅七岁的儿子周海婴题写",
+      "category": "其他",
+      "people": [
+        "周海婴"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 9,
+          "quote": "墓碑上“鲁迅先生之墓”六个稚嫩的字，是鲁迅年仅七岁的儿子周海婴题写。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：丧仪细节；年谱只保留逝世与安葬两条",
+      "month_hint": 10,
+      "key": "6ec68876c11b"
+    },
+    {
+      "id": "e0127",
+      "year": 1956,
+      "month": null,
+      "season": null,
+      "time_raw": "1956年",
+      "time_confidence": "explicit",
+      "time_note": "",
+      "summary": "1956年，鲁迅墓迁移重建于上海虹口公园",
+      "category": "其他",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 10,
+          "quote": "1956年，鲁迅墓迁移重建于上海虹口公园。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "5697c53996a5"
+    },
+    {
+      "id": "e0128",
+      "year": 1956,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "inferred",
+      "time_note": "原文无时间词，沿用上文1956年",
+      "summary": "鲁迅之子周海婴曾撰文，怀疑是其信任有加的日本医生须藤五百三故意误诊，致其得不到正常治疗而早死，后经证实，鲁迅的真实死因应该为由肺结核和肺气肿诱发的严重气胸",
+      "category": "任职",
+      "people": [
+        "周海婴"
+      ],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·逝世",
+          "paragraph": 11,
+          "quote": "鲁迅之子周海婴曾撰文，怀疑是其信任有加的日本医生须藤五百三故意误诊，致其得不到正常治疗而早死，后经证实，鲁迅的真实死因应该为由肺结核和肺气肿诱发的严重气胸。"
+        }
+      ],
+      "status": "rejected",
+      "note": "预审（Claude，待人工确认）：身后争议，非传主事迹，且无确切年份",
+      "month_hint": null,
+      "key": "8a0dd7f93c45"
+    },
+    {
+      "id": "e0129",
+      "year": null,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "unresolved",
+      "time_note": "原文无时间线索",
+      "summary": "魯迅童年生活於百草園、咸亨酒店、外婆家一帶的農村等地，成為後來鲁迅的兩部小說集《呐喊》、《彷徨》和散文集《朝花夕拾》的重要素材来源",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [
+        "呐喊",
+        "彷徨",
+        "朝花夕拾"
+      ],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 1,
+          "quote": "魯迅童年生活於百草園、咸亨酒店、外婆家一帶的農村等地，成為後來鲁迅的兩部小說集《呐喊》、《彷徨》和散文集《朝花夕拾》的重要素材来源。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "d7f2f6cac36a"
+    },
+    {
+      "id": "e0130",
+      "year": null,
+      "month": null,
+      "season": null,
+      "time_raw": "",
+      "time_confidence": "unresolved",
+      "time_note": "原文无时间线索",
+      "summary": "魯迅頗受演化論思想影響，愛讀新思想的書，尤其是翻譯的小說",
+      "category": "著述",
+      "people": [],
+      "places": [],
+      "works": [],
+      "sources": [
+        {
+          "chapter": "维基百科·早年",
+          "paragraph": 1,
+          "quote": "魯迅頗受演化論思想影響，愛讀新思想的書，尤其是翻譯的小說。"
+        }
+      ],
+      "status": "auto",
+      "note": "",
+      "month_hint": null,
+      "key": "84d407b0f5fb"
+    }
+  ]
+}

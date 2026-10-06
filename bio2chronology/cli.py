@@ -51,7 +51,7 @@ def main(argv=None) -> int:
     e.add_argument("--formats", type=_formats, default=["md", "csv", "html"])
     e.add_argument("--quotes", action="store_true")
 
-    r = sub.add_parser("review", help="命令行校订单条事件")
+    r = sub.add_parser("review", help="校订单条事件（记录到同目录 review.json，重新转换后仍保留）")
     r.add_argument("input", help="chronology.json")
     r.add_argument("id", help="事件 id，如 e0003")
     r.add_argument("--status", choices=["confirmed", "rejected", "auto"])
@@ -61,10 +61,22 @@ def main(argv=None) -> int:
     r.add_argument("--note")
 
     c = sub.add_parser("convert", help="people/<slug>/ 下的传记 → chronology.json（离线管线，产物需人工校订后提交）")
-    c.add_argument("dir", help="人物目录，如 people/shen-yanqiu（需含 meta.json 与 source/biography.txt）")
+    c.add_argument("dir", help="人物目录，如 people/lu-xun（含 meta.json 与其中列出的来源文本）")
     c.add_argument("--engine", choices=["rules", "llm"], default="rules")
     c.add_argument("--model", default="claude-sonnet-5-5")
-    c.add_argument("--force", action="store_true", help="覆盖已有 chronology.json（会丢失人工校订！）")
+
+    f = sub.add_parser("fetch", help="从 Wikipedia / Wikisource 下载来源文本，登记到 meta.json")
+    f.add_argument("dir", help="人物目录")
+    f.add_argument("--site", required=True, help="如 zh.wikipedia.org、zh.wikisource.org")
+    f.add_argument("--title", required=True, help="页面标题")
+    f.add_argument("--label", default="", help="来源简称，显示在出处中，如“维基百科”")
+    f.add_argument("--sections", default="", help="只保留这些二级章节，逗号分隔（如：生平）")
+    f.add_argument("--start", default="", help="正文从此标记开始（Wikisource 多篇合刊时用）")
+    f.add_argument("--license", default="", help="许可，如 CC BY-SA 4.0、公有领域")
+    f.add_argument("--age-reckoning", choices=["周岁", "虚岁"], default="周岁")
+
+    ev = sub.add_parser("eval", help="用 eval/gold.json 评测某人物的年谱")
+    ev.add_argument("dir")
 
     st = sub.add_parser("site", help="网站：build 构建静态站 / serve 本地预览")
     st.add_argument("action", choices=["build", "serve"])
@@ -75,18 +87,37 @@ def main(argv=None) -> int:
     a = p.parse_args(argv)
 
     if a.cmd == "convert":
+        from .project import convert_person
+        chron, applied, orphaned = convert_person(Path(a.dir), a.engine, a.model)
+        low = sum(1 for x in chron.events if x.time_confidence in ("inferred", "approx"))
+        print(f"{chron.subject}：{len(chron.events)} 条事件（{low} 条推断/估算）；套用校订 {applied} 条"
+              + (f"；{orphaned} 条校订未能对应（原文或抽取结果已变，请检查 review.json）" if orphaned else ""))
+        return 0
+
+    if a.cmd == "fetch":
+        from .sources import fetch_raw, page_url, wikisource_body, wikitext_to_text
         d = Path(a.dir)
-        meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
-        target = d / "chronology.json"
-        if target.exists() and not a.force:
-            print(f"{target} 已存在，可能含人工校订；确需重来请加 --force", file=sys.stderr)
-            return 1
-        text = (d / meta.get("biography", "source/biography.txt")).read_text(encoding="utf-8")
-        people = meta.get("known_people", [])
-        ex = LLMExtractor(meta["name"], model=a.model) if a.engine == "llm" else RuleExtractor(people)
-        chron = build_chronology(text, meta["name"], meta.get("birth_year"), ex, people)
-        target.write_text(to_json(chron), encoding="utf-8")
-        print(f"{meta['name']}：{len(chron.events)} 条事件 → {target}；请校订后提交（review 命令或直接编辑 JSON）")
+        raw = fetch_raw(a.site, a.title)
+        sections = tuple(x for x in a.sections.split(",") if x)
+        text = wikisource_body(raw, a.start) if "wikisource" in a.site else wikitext_to_text(raw, sections)
+        fname = f"source/{a.site.split('.')[1]}-{a.label or 'text'}.txt"
+        (d / "source").mkdir(parents=True, exist_ok=True)
+        (d / fname).write_text(text, encoding="utf-8")
+        meta_path = d / "meta.json"
+        meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {"name": d.name}
+        entry = {"file": fname, "label": a.label, "title": a.title, "url": page_url(a.site, a.title),
+                 "license": a.license, "age_reckoning": a.age_reckoning}
+        meta["sources"] = [s for s in meta.get("sources", []) if s.get("file") != fname] + [entry]
+        meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"{len(text)} 字 → {d / fname}；已登记到 meta.json")
+        return 0
+
+    if a.cmd == "eval":
+        from .evaluate import evaluate, format_report
+        d = Path(a.dir)
+        chron = Chronology.from_dict(json.loads((d / "chronology.json").read_text(encoding="utf-8")))
+        gold = json.loads((d / "eval" / "gold.json").read_text(encoding="utf-8"))
+        print(format_report(evaluate(chron, gold)))
         return 0
 
     if a.cmd == "site":
@@ -113,24 +144,15 @@ def main(argv=None) -> int:
         _write_exports(chron, Path(a.out), a.formats, a.quotes)
         return 0
 
-    path = Path(a.input)
-    chron = Chronology.from_dict(json.loads(path.read_text(encoding="utf-8")))
-    ev = next((x for x in chron.events if x.id == a.id), None)
-    if ev is None:
+    from .project import review_event
+    edits = {"status": a.status or "confirmed", "year": a.year, "month": a.month,
+             "summary": a.summary, "note": a.note}
+    try:
+        key = review_event(Path(a.input), a.id, edits)
+    except KeyError:
         print(f"找不到事件 {a.id}", file=sys.stderr)
         return 1
-    if a.year is not None:
-        ev.year, ev.time_confidence, ev.time_note = a.year, "explicit", "人工校订"
-    if a.month is not None:
-        ev.month = a.month
-    if a.summary:
-        ev.summary = a.summary
-    if a.note:
-        ev.note = a.note
-    ev.status = a.status or ("confirmed" if a.status is None else ev.status)
-    chron.events.sort(key=lambda x: x.sort_key())
-    path.write_text(json.dumps(chron.to_dict(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"已更新 {a.id}")
+    print(f"已更新 {a.id}（review.json 键 {key}）")
     return 0
 
 
