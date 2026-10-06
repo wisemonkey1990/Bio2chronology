@@ -1,0 +1,17 @@
+[project]
+name = "bio2chronology"
+version = "0.1.0"
+description = "谱成 / Bio2Chronology: turn a biography into a traceable, editable chronology."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+bio2chronology = "bio2chronology.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bio2chronology"]
